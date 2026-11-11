@@ -1,20 +1,20 @@
 {
   "schema": 1,
   "packageName": "app.orchard.manager",
-  "versionCode": 131,
-  "versionName": "1.2.4",
+  "versionCode": 134,
+  "versionName": "1.2.5",
   "minSdk": 21,
-  "tag": "manager-v1.2.4b",
+  "tag": "manager-v1.2.5",
   "apk": {
-    "name": "orange-manager-1.2.4b.apk",
-    "size": 11724455,
-    "sha256": "b0d1c6d1e09e5421f77a9f9c8c11b6f829c0711e5463ecadf8151ffd740b17d5",
+    "name": "orange-manager-1.2.5.apk",
+    "size": 11728551,
+    "sha256": "ec5eb7b7bdde3d73440948f71a110fcccf4759bc36520444adb765effe724691",
     "urls": [
-      "https://gitee.com/abai569/orchard-manager-updates/releases/download/manager-v1.2.4b/orange-manager-1.2.4b.apk",
-      "https://gh-proxy.org/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.2.4b/orange-manager-1.2.4b.apk",
-      "https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.2.4b/orange-manager-1.2.4b.apk",
-      "https://ghfast.top/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.2.4b/orange-manager-1.2.4b.apk"
+      "https://gitee.com/abai569/orchard-manager-updates/releases/download/manager-v1.2.5/orange-manager-1.2.5.apk",
+      "https://gh-proxy.org/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.2.5/orange-manager-1.2.5.apk",
+      "https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.2.5/orange-manager-1.2.5.apk",
+      "https://ghfast.top/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.2.5/orange-manager-1.2.5.apk"
     ]
   },
-  "notes": "1.2.4 正式版\n- 橙龙系列软件在线安装，安装包 26MB → 11.7MB\n- 工具自身支持在线升级，版本号后面会出现小圆点\n- 遥控器适配：电视上方向键可以选中所有按钮\n- 内置橙龙桌面更新到 1.4.2"
+  "notes": "1.2.5 安全修复（强烈建议升级）\n- 移除「禁用原厂桌面」功能：这个操作会导致开机没有可用桌面、卡在启动页\n- 原厂桌面列表现在只保留「启用」，可以救回被停用的电视\n- 遥控器适配、在线安装、自身升级等保持不变"
 }
