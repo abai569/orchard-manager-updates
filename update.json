@@ -1,20 +1,20 @@
 {
   "schema": 1,
   "packageName": "app.orchard.manager",
-  "versionCode": 129,
-  "versionName": "1.2.3",
+  "versionCode": 131,
+  "versionName": "1.2.4",
   "minSdk": 21,
-  "tag": "manager-v1.2.3",
+  "tag": "manager-v1.2.4",
   "apk": {
-    "name": "orange-manager-1.2.3.apk",
-    "size": 25999231,
-    "sha256": "e9c6452e51b759d74e6c81cec9a583fcff6776e86d7028bec3aa85ecbb2f1f1c",
+    "name": "orange-manager-1.2.4.apk",
+    "size": 11728551,
+    "sha256": "bc19d0bbe97881c2f20c72df62407c1d38d047e3a45c4d1b89920eb18d299430",
     "urls": [
-      "https://gitee.com/abai569/orchard-manager-updates/releases/download/manager-v1.2.3/orange-manager-1.2.3.apk",
-      "https://gh-proxy.org/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.2.3/orange-manager-1.2.3.apk",
-      "https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.2.3/orange-manager-1.2.3.apk",
-      "https://ghfast.top/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.2.3/orange-manager-1.2.3.apk"
+      "https://gitee.com/abai569/orchard-manager-updates/releases/download/manager-v1.2.4/orange-manager-1.2.4.apk",
+      "https://gh-proxy.org/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.2.4/orange-manager-1.2.4.apk",
+      "https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.2.4/orange-manager-1.2.4.apk",
+      "https://ghfast.top/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.2.4/orange-manager-1.2.4.apk"
     ]
   },
-  "notes": "1.2.3\n- 新增 G 版守护体检：一键查无障碍/悬浮窗/守护进程，并实测按 Home\n- 修 TCL 校验器：关开关、动态停用校验器包、会话安装走 stdin、cat 流式安装\n- 修会话安装流控（原来猛发导致写入丢数据）\n- 校验器开关改为回查确认\n- 内置：橙龙桌面 1.4.1-S/G、Lite 1.4.1、输入法 2.7.9、橘果 3.2.1、答题 1.0.2"
+  "notes": "1.2.4 正式版\n- 橙龙系列软件改成在线安装：输入法、橘果、答题不再内置，装的时候自动下最新版\n- 安装包从 26MB 瘦身到 11.7MB\n- 工具自身支持在线升级，有新版本会在版本号后面显示小圆点\n- 遥控器适配：电视上可以用方向键选中所有按钮和卡片\n- 内置橙龙桌面更新到 1.4.2"
 }
