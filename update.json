@@ -4,17 +4,17 @@
   "versionCode": 134,
   "versionName": "1.2.5",
   "minSdk": 21,
-  "tag": "manager-v1.2.5b",
+  "tag": "manager-v1.2.5c",
   "apk": {
-    "name": "orange-manager-1.2.5b.apk",
+    "name": "orange-manager-1.2.5c.apk",
     "size": 11728551,
-    "sha256": "c3c812af48f3f824c02cd99b6e973b68ba6c20dfe05273ce0fd30c810fe91887",
+    "sha256": "2eb98e01fbff6533d430fcf394a17d97c98ced065b6c430fd0705ebe30d9cdb0",
     "urls": [
-      "https://gitee.com/abai569/orchard-manager-updates/releases/download/manager-v1.2.5b/orange-manager-1.2.5b.apk",
-      "https://gh-proxy.org/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.2.5b/orange-manager-1.2.5b.apk",
-      "https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.2.5b/orange-manager-1.2.5b.apk",
-      "https://ghfast.top/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.2.5b/orange-manager-1.2.5b.apk"
+      "https://gitee.com/abai569/orchard-manager-updates/releases/download/manager-v1.2.5c/orange-manager-1.2.5c.apk",
+      "https://gh-proxy.org/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.2.5c/orange-manager-1.2.5c.apk",
+      "https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.2.5c/orange-manager-1.2.5c.apk",
+      "https://ghfast.top/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.2.5c/orange-manager-1.2.5c.apk"
     ]
   },
-  "notes": "1.2.5 安全修复\n- 移除「禁用原厂桌面」：这个操作会导致开机没有可用桌面、卡在启动页\n- 原厂桌面列表只保留「启用」，可以救回被停用的电视\n- 系统管理页按钮改成流式彩色小块，宽屏自动多列"
+  "notes": "1.2.5 安全修复\n- 移除「禁用原厂桌面」；清理预装现在也会跳过声明 HOME 的桌面应用\n- 系统管理页按钮改成流式彩色小块，圆角统一，遥控失灵按钮挪到右边"
 }
