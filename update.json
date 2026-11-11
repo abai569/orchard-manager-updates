@@ -4,17 +4,17 @@
   "versionCode": 131,
   "versionName": "1.2.4",
   "minSdk": 21,
-  "tag": "manager-v1.2.4",
+  "tag": "manager-v1.2.4b",
   "apk": {
-    "name": "orange-manager-1.2.4.apk",
-    "size": 11728551,
-    "sha256": "bc19d0bbe97881c2f20c72df62407c1d38d047e3a45c4d1b89920eb18d299430",
+    "name": "orange-manager-1.2.4b.apk",
+    "size": 11724455,
+    "sha256": "b0d1c6d1e09e5421f77a9f9c8c11b6f829c0711e5463ecadf8151ffd740b17d5",
     "urls": [
-      "https://gitee.com/abai569/orchard-manager-updates/releases/download/manager-v1.2.4/orange-manager-1.2.4.apk",
-      "https://gh-proxy.org/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.2.4/orange-manager-1.2.4.apk",
-      "https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.2.4/orange-manager-1.2.4.apk",
-      "https://ghfast.top/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.2.4/orange-manager-1.2.4.apk"
+      "https://gitee.com/abai569/orchard-manager-updates/releases/download/manager-v1.2.4b/orange-manager-1.2.4b.apk",
+      "https://gh-proxy.org/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.2.4b/orange-manager-1.2.4b.apk",
+      "https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.2.4b/orange-manager-1.2.4b.apk",
+      "https://ghfast.top/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.2.4b/orange-manager-1.2.4b.apk"
     ]
   },
-  "notes": "1.2.4 正式版\n- 橙龙系列软件改成在线安装：输入法、橘果、答题不再内置，装的时候自动下最新版\n- 安装包从 26MB 瘦身到 11.7MB\n- 工具自身支持在线升级，有新版本会在版本号后面显示小圆点\n- 遥控器适配：电视上可以用方向键选中所有按钮和卡片\n- 内置橙龙桌面更新到 1.4.2"
+  "notes": "1.2.4 正式版\n- 橙龙系列软件在线安装，安装包 26MB → 11.7MB\n- 工具自身支持在线升级，版本号后面会出现小圆点\n- 遥控器适配：电视上方向键可以选中所有按钮\n- 内置橙龙桌面更新到 1.4.2"
 }
