@@ -1,20 +1,20 @@
 {
   "schema": 1,
   "packageName": "app.orchard.manager",
-  "versionCode": 136,
-  "versionName": "1.2.7",
+  "versionCode": 137,
+  "versionName": "1.2.8",
   "minSdk": 21,
-  "tag": "manager-v1.2.7",
+  "tag": "manager-v1.2.8",
   "apk": {
-    "name": "orange-manager-1.2.7.apk",
+    "name": "orange-manager-1.2.8.apk",
     "size": 11732647,
-    "sha256": "2d918035afafd35d91401be50452e0e0ef64a03ff3837774962d8de8ae59e289",
+    "sha256": "69091452bea56d164cf6634747d1778f1fee8a82211ac37c8629d8a401a9d2b0",
     "urls": [
-      "https://gitee.com/abai569/orchard-manager-updates/releases/download/manager-v1.2.7/orange-manager-1.2.7.apk",
-      "https://gh-proxy.org/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.2.7/orange-manager-1.2.7.apk",
-      "https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.2.7/orange-manager-1.2.7.apk",
-      "https://ghfast.top/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.2.7/orange-manager-1.2.7.apk"
+      "https://gitee.com/abai569/orchard-manager-updates/releases/download/manager-v1.2.8/orange-manager-1.2.8.apk",
+      "https://gh-proxy.org/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.2.8/orange-manager-1.2.8.apk",
+      "https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.2.8/orange-manager-1.2.8.apk",
+      "https://ghfast.top/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.2.8/orange-manager-1.2.8.apk"
     ]
   },
-  "notes": "1.2.7 连接行为修正\n- 不再自动改加密方式重连，输入什么端口就按什么连\n- 连不上不自动弹配对窗，只写清原因（端口不对/超时/ADB 没开/要走配对）\n- 配对码弹窗只能手动点「配对」打开，IP 自动填好"
+  "notes": "1.2.8 日志保存入口\n- 顶部日志框新增「保存」按钮，日志直接存到 Download/橙龙桌面工具/\n- 保存·复制·清空 三按钮间距 6dp→3dp\n- 点顶部框不再弹出底部日志面板"
 }
