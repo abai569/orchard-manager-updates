@@ -1,20 +1,20 @@
 {
   "schema": 1,
   "packageName": "app.orchard.manager",
-  "versionCode": 137,
-  "versionName": "1.2.8",
+  "versionCode": 138,
+  "versionName": "1.2.9",
   "minSdk": 21,
-  "tag": "manager-v1.2.8",
+  "tag": "manager-v1.2.9",
   "apk": {
-    "name": "orange-manager-1.2.8.apk",
+    "name": "orange-manager-1.2.9.apk",
     "size": 11732647,
-    "sha256": "69091452bea56d164cf6634747d1778f1fee8a82211ac37c8629d8a401a9d2b0",
+    "sha256": "ef366db64a28117be3c9b42d5118ab058a0b8bef6a703b2caa4cda243c44e01c",
     "urls": [
-      "https://gitee.com/abai569/orchard-manager-updates/releases/download/manager-v1.2.8/orange-manager-1.2.8.apk",
-      "https://gh-proxy.org/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.2.8/orange-manager-1.2.8.apk",
-      "https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.2.8/orange-manager-1.2.8.apk",
-      "https://ghfast.top/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.2.8/orange-manager-1.2.8.apk"
+      "https://gitee.com/abai569/orchard-manager-updates/releases/download/manager-v1.2.9/orange-manager-1.2.9.apk",
+      "https://gh-proxy.org/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.2.9/orange-manager-1.2.9.apk",
+      "https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.2.9/orange-manager-1.2.9.apk",
+      "https://ghfast.top/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.2.9/orange-manager-1.2.9.apk"
     ]
   },
-  "notes": "1.2.8 日志保存入口\n- 顶部日志框新增「保存」按钮，日志直接存到 Download/橙龙桌面工具/\n- 保存·复制·清空 三按钮间距 6dp→3dp\n- 点顶部框不再弹出底部日志面板"
+  "notes": "1.2.9 安装与传输修正\n- 电视关掉「ADB 安装」（install_switch_flag=0）时立刻停止，直接引导用电视自带安装器，不再反复试通道/guard\n- sync 读超时按文件大小放长，老电视 4MB 包不再卡在「发送文件头」15 秒超时\n- 传输体检改用实际推送目录，「电视自取」失败只按目录记，不再整体拉黑 12 小时"
 }
