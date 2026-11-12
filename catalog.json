@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-12",
+  "updated": "2026-11-13",
   "apps": [
     {
       "key": "desktop",
@@ -113,6 +113,22 @@
         "https://gh-proxy.org/https://github.com/abai569/orchard-manager-updates/releases/download/datitv-1.0.2/orange-datitv-1.0.2.apk",
         "https://github.com/abai569/orchard-manager-updates/releases/download/datitv-1.0.2/orange-datitv-1.0.2.apk",
         "https://ghfast.top/https://github.com/abai569/orchard-manager-updates/releases/download/datitv-1.0.2/orange-datitv-1.0.2.apk"
+      ]
+    },
+    {
+      "key": "file",
+      "name": "小白文件管理器",
+      "packageName": "com.xiaobaifile.tv",
+      "versionName": "2.8.0",
+      "versionCode": 45,
+      "minSdk": 14,
+      "size": 6031844,
+      "sha256": "443e088719041cc8938d05338f9f96fc06740444499e3c5abe449981022edf37",
+      "urls": [
+        "https://gh-proxy.org/https://github.com/abai569/orchard-manager-updates/releases/download/file-2.8.0/orange-file-2.8.0.apk",
+        "https://github.com/abai569/orchard-manager-updates/releases/download/file-2.8.0/orange-file-2.8.0.apk",
+        "https://ghfast.top/https://github.com/abai569/orchard-manager-updates/releases/download/file-2.8.0/orange-file-2.8.0.apk",
+        "https://chfs.abai.eu.org/orange-file-2.8.0.apk"
       ]
     }
   ]
