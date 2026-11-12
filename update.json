@@ -7,8 +7,8 @@
   "tag": "manager-v1.2.5c",
   "apk": {
     "name": "orange-manager-1.2.5c.apk",
-    "size": 11728551,
-    "sha256": "2eb98e01fbff6533d430fcf394a17d97c98ced065b6c430fd0705ebe30d9cdb0",
+    "size": 11732647,
+    "sha256": "5e4168f9b6a6ecf72e1129d2a8ff5d85dff4a2bb96d4555faaa3a8d4e5c85357",
     "urls": [
       "https://gitee.com/abai569/orchard-manager-updates/releases/download/manager-v1.2.5c/orange-manager-1.2.5c.apk",
       "https://gh-proxy.org/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.2.5c/orange-manager-1.2.5c.apk",
@@ -16,5 +16,5 @@
       "https://ghfast.top/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.2.5c/orange-manager-1.2.5c.apk"
     ]
   },
-  "notes": "1.2.5 安全修复\n- 移除「禁用原厂桌面」；清理预装现在也会跳过声明 HOME 的桌面应用\n- 系统管理页按钮改成流式彩色小块，圆角统一，遥控失灵按钮挪到右边"
+  "notes": "1.2.5 清理预装与去广告修正\n- 清理预装逐项勾选，分「建议停用 / 谨慎选择 / 系统保护」三类，默认全不勾\n- 桌面、输入法、Google Play、Assistant、TalkBack、关机相关包一律保护\n- 去广告优先停用 com.tcl.bootadservice（开机广告），并排除与清理预装重复的候选\n- 「系统级去广告/提速」改名为「系统优化（DNS/动画/缓存）」"
 }
