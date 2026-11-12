@@ -1,20 +1,20 @@
 {
   "schema": 1,
   "packageName": "app.orchard.manager",
-  "versionCode": 135,
-  "versionName": "1.2.6",
+  "versionCode": 136,
+  "versionName": "1.2.7",
   "minSdk": 21,
-  "tag": "manager-v1.2.6",
+  "tag": "manager-v1.2.7",
   "apk": {
-    "name": "orange-manager-1.2.6.apk",
-    "size": 11736743,
-    "sha256": "fbfe810200a07e80c2642b76fd9cec8fccd2c21cd4e8ae1104a330dc903c92a7",
+    "name": "orange-manager-1.2.7.apk",
+    "size": 11732647,
+    "sha256": "2d918035afafd35d91401be50452e0e0ef64a03ff3837774962d8de8ae59e289",
     "urls": [
-      "https://gitee.com/abai569/orchard-manager-updates/releases/download/manager-v1.2.6/orange-manager-1.2.6.apk",
-      "https://gh-proxy.org/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.2.6/orange-manager-1.2.6.apk",
-      "https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.2.6/orange-manager-1.2.6.apk",
-      "https://ghfast.top/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.2.6/orange-manager-1.2.6.apk"
+      "https://gitee.com/abai569/orchard-manager-updates/releases/download/manager-v1.2.7/orange-manager-1.2.7.apk",
+      "https://gh-proxy.org/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.2.7/orange-manager-1.2.7.apk",
+      "https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.2.7/orange-manager-1.2.7.apk",
+      "https://ghfast.top/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.2.7/orange-manager-1.2.7.apk"
     ]
   },
-  "notes": "1.2.6 守护配置修正 + 清理预装三分法\n- 清理预装逐项勾选，分「建议停用 / 谨慎选择 / 系统保护」三类，默认全不勾\n- 去广告优先停用 com.tcl.bootadservice（开机广告），并与清理预装去重\n- 「系统级去广告/提速」改名「系统优化（DNS/动画/缓存）」\n- TCL 支持开机直启（boot_to_launch），开机不出现原厂桌面；还原桌面时自动改回\n- 无障碍服务写完后强制 0→1 重新绑定，并回读确认守护真的绑上\n- 补 RUN_IN_BACKGROUND / RUN_ANY_IN_BACKGROUND，防 TCL 后台冻结"
+  "notes": "1.2.7 连接行为修正\n- 不再自动改加密方式重连，输入什么端口就按什么连\n- 连不上不自动弹配对窗，只写清原因（端口不对/超时/ADB 没开/要走配对）\n- 配对码弹窗只能手动点「配对」打开，IP 自动填好"
 }
