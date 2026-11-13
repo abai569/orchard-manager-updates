@@ -18,8 +18,8 @@
       "variants": {
         "standard": {
           "name": "orange-desktop-1.4.5-s.apk",
-          "size": 4749291,
-          "sha256": "d6da244c78ccbc0e561cb117268554fa91019def54fd950c550a13685cefa52b",
+          "size": 4751789,
+          "sha256": "1d3debd8195882dd16aef08e1efbc30f70d3b7caaf5f681a8a652e54114b6259",
           "urls": [
             "https://gitee.com/abai569/orchard-manager-updates/releases/download/desktop-1.4.5/orange-desktop-1.4.5-s.apk",
             "https://gh-proxy.org/https://github.com/abai569/orchard-manager-updates/releases/download/desktop-1.4.5/orange-desktop-1.4.5-s.apk",
@@ -31,8 +31,8 @@
         },
         "guard": {
           "name": "orange-desktop-1.4.5-g.apk",
-          "size": 4749271,
-          "sha256": "0f663e83eb4b73b433aef14da2c563f8b8fb6cfc8e3e6698b0caaddbc09f3ec5",
+          "size": 4751868,
+          "sha256": "0d4a8a397a979668cdee0326b7c08012430d3e25fcb2fc0195cc16f82ee5e365",
           "urls": [
             "https://gitee.com/abai569/orchard-manager-updates/releases/download/desktop-1.4.5/orange-desktop-1.4.5-g.apk",
             "https://gh-proxy.org/https://github.com/abai569/orchard-manager-updates/releases/download/desktop-1.4.5/orange-desktop-1.4.5-g.apk",
