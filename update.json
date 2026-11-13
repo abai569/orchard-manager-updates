@@ -1,20 +1,20 @@
 {
   "schema": 1,
   "packageName": "app.orchard.manager",
-  "versionCode": 144,
-  "versionName": "1.3.4",
+  "versionCode": 145,
+  "versionName": "1.3.5",
   "minSdk": 21,
-  "tag": "manager-v1.3.4",
+  "tag": "manager-v1.3.5",
   "apk": {
-    "name": "orange-manager-1.3.4.apk",
-    "size": 11753127,
-    "sha256": "02d21dd4f31a6d39aa054fe7bfa9ae2eba4907691047defaa15bf6a30a9830cd",
+    "name": "orange-manager-1.3.5.apk",
+    "size": 11757223,
+    "sha256": "2f37c22b087db363270f8c7d37519294c56e3b4f2854a9261a005a31f62453fa",
     "urls": [
-      "https://gitee.com/abai569/orchard-manager-updates/releases/download/manager-v1.3.4/orange-manager-1.3.4.apk",
-      "https://gh-proxy.org/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.3.4/orange-manager-1.3.4.apk",
-      "https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.3.4/orange-manager-1.3.4.apk",
-      "https://ghfast.top/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.3.4/orange-manager-1.3.4.apk"
+      "https://gitee.com/abai569/orchard-manager-updates/releases/download/manager-v1.3.5/orange-manager-1.3.5.apk",
+      "https://gh-proxy.org/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.3.5/orange-manager-1.3.5.apk",
+      "https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.3.5/orange-manager-1.3.5.apk",
+      "https://ghfast.top/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.3.5/orange-manager-1.3.5.apk"
     ]
   },
-  "notes": "1.3.4 内置桌面换 1.4.5 + 守护配置通道\n- 内置橙龙桌面更新到 1.4.5（标准版/guard 版 147，Lite 版 145）\n- 装完/修复守护后自动走守护的 ADB 配置通道（guard + filter_home），回读结果写进日志\n- 「恢复电视原样」先摘掉守护和 relay（reset），再关守护、卸包\n- 回读不到只记一笔，不阻断流程，旧桌面照样能用"
+  "notes": "1.3.5\n- 顶部运行日志不再显示 versionCode\n- 连上电视自动检查工具更新，有新版本直接弹窗提示（不用退出重进）\n- 橙龙系列软件里加「橙龙桌面 G 版」，可以直接装/更新守护版桌面\n- 读桌面崩溃日志多试一个路径（Android/data/app.orchard.tv/files/orchard-crash.txt），新系统也能读到"
 }
