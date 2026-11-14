@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "updated": "2026-11-13",
+  "updated": "2026-11-14",
   "apps": [
     {
       "key": "desktop",
       "name": "橙龙桌面",
       "packageName": "app.orchard.tv",
-      "versionName": "1.4.5",
-      "versionCode": 147,
+      "versionName": "1.4.6",
+      "versionCode": 148,
       "minSdk": 21,
       "abi": [
         "arm64-v8a",
@@ -17,44 +17,44 @@
       ],
       "variants": {
         "standard": {
-          "name": "orange-desktop-1.4.5-s.apk",
-          "size": 4751789,
-          "sha256": "1d3debd8195882dd16aef08e1efbc30f70d3b7caaf5f681a8a652e54114b6259",
+          "name": "orange-desktop-1.4.6-s.apk",
+          "size": 4752234,
+          "sha256": "626cf9d4d07ea960e5eeddc64ab366cb469e115459b04ffd40ae416097c1a856",
           "urls": [
-            "https://gitee.com/abai569/orchard-manager-updates/releases/download/desktop-1.4.5/orange-desktop-1.4.5-s.apk",
-            "https://gh-proxy.org/https://github.com/abai569/orchard-manager-updates/releases/download/desktop-1.4.5/orange-desktop-1.4.5-s.apk",
-            "https://github.com/abai569/orchard-manager-updates/releases/download/desktop-1.4.5/orange-desktop-1.4.5-s.apk",
-            "https://ghfast.top/https://github.com/abai569/orchard-manager-updates/releases/download/desktop-1.4.5/orange-desktop-1.4.5-s.apk"
+            "https://gitee.com/abai569/orchard-manager-updates/releases/download/desktop-1.4.6/orange-desktop-1.4.6-s.apk",
+            "https://gh-proxy.org/https://github.com/abai569/orchard-manager-updates/releases/download/desktop-1.4.6/orange-desktop-1.4.6-s.apk",
+            "https://github.com/abai569/orchard-manager-updates/releases/download/desktop-1.4.6/orange-desktop-1.4.6-s.apk",
+            "https://ghfast.top/https://github.com/abai569/orchard-manager-updates/releases/download/desktop-1.4.6/orange-desktop-1.4.6-s.apk"
           ],
-          "versionName": "1.4.5",
-          "versionCode": 147
+          "versionName": "1.4.6",
+          "versionCode": 148
         },
         "guard": {
-          "name": "orange-desktop-1.4.5-g.apk",
-          "size": 4751868,
-          "sha256": "0d4a8a397a979668cdee0326b7c08012430d3e25fcb2fc0195cc16f82ee5e365",
+          "name": "orange-desktop-1.4.6-g.apk",
+          "size": 4753160,
+          "sha256": "5bf1ea411710126bb14ee265fb1a59c0d59412311f8d926c2d6edd2e7a5bc3f7",
           "urls": [
-            "https://gitee.com/abai569/orchard-manager-updates/releases/download/desktop-1.4.5/orange-desktop-1.4.5-g.apk",
-            "https://gh-proxy.org/https://github.com/abai569/orchard-manager-updates/releases/download/desktop-1.4.5/orange-desktop-1.4.5-g.apk",
-            "https://github.com/abai569/orchard-manager-updates/releases/download/desktop-1.4.5/orange-desktop-1.4.5-g.apk",
-            "https://ghfast.top/https://github.com/abai569/orchard-manager-updates/releases/download/desktop-1.4.5/orange-desktop-1.4.5-g.apk"
+            "https://gitee.com/abai569/orchard-manager-updates/releases/download/desktop-1.4.6/orange-desktop-1.4.6-g.apk",
+            "https://gh-proxy.org/https://github.com/abai569/orchard-manager-updates/releases/download/desktop-1.4.6/orange-desktop-1.4.6-g.apk",
+            "https://github.com/abai569/orchard-manager-updates/releases/download/desktop-1.4.6/orange-desktop-1.4.6-g.apk",
+            "https://ghfast.top/https://github.com/abai569/orchard-manager-updates/releases/download/desktop-1.4.6/orange-desktop-1.4.6-g.apk"
           ],
-          "versionName": "1.4.5-guard",
-          "versionCode": 147
+          "versionName": "1.4.6-guard",
+          "versionCode": 148
         },
         "lite": {
-          "name": "orange-desktop-1.4.5-l.apk",
-          "size": 1038935,
-          "sha256": "50b84028bf557519539b16c577a6581b2468fdb0c6f9eb69b7e49c0536c01656",
+          "name": "orange-desktop-1.4.6-l.apk",
+          "size": 1038940,
+          "sha256": "f4487ff330beac2dce2dc7496d62224f98aa143e84ef8e513b2f1bb6de35bc2d",
           "urls": [
-            "https://gitee.com/abai569/orchard-manager-updates/releases/download/desktop-1.4.5/orange-desktop-1.4.5-l.apk",
-            "https://gh-proxy.org/https://github.com/abai569/orchard-manager-updates/releases/download/desktop-1.4.5/orange-desktop-1.4.5-l.apk",
-            "https://github.com/abai569/orchard-manager-updates/releases/download/desktop-1.4.5/orange-desktop-1.4.5-l.apk",
-            "https://ghfast.top/https://github.com/abai569/orchard-manager-updates/releases/download/desktop-1.4.5/orange-desktop-1.4.5-l.apk"
+            "https://gitee.com/abai569/orchard-manager-updates/releases/download/desktop-1.4.6/orange-desktop-1.4.6-l.apk",
+            "https://gh-proxy.org/https://github.com/abai569/orchard-manager-updates/releases/download/desktop-1.4.6/orange-desktop-1.4.6-l.apk",
+            "https://github.com/abai569/orchard-manager-updates/releases/download/desktop-1.4.6/orange-desktop-1.4.6-l.apk",
+            "https://ghfast.top/https://github.com/abai569/orchard-manager-updates/releases/download/desktop-1.4.6/orange-desktop-1.4.6-l.apk"
           ],
           "packageName": "app.orchard.tv.lite",
-          "versionName": "1.4.5",
-          "versionCode": 145,
+          "versionName": "1.4.6",
+          "versionCode": 146,
           "minSdk": 14
         }
       }
