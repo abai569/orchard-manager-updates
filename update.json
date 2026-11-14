@@ -1,20 +1,20 @@
 {
   "schema": 1,
   "packageName": "app.orchard.manager",
-  "versionCode": 147,
-  "versionName": "1.3.7",
+  "versionCode": 148,
+  "versionName": "1.3.8",
   "minSdk": 21,
-  "tag": "manager-v1.3.7",
+  "tag": "manager-v1.3.8",
   "apk": {
-    "name": "orange-manager-1.3.7.apk",
-    "size": 11761319,
-    "sha256": "185cfc4b97fe6a6422edb8b2af8eb9a2a644403a8409f29723970ee0f80e5b82",
+    "name": "orange-manager-1.3.8.apk",
+    "size": 11781799,
+    "sha256": "27bf97ff2689b282ab1df0351e213e0402a6cf384babe43898a63facbbe3151f",
     "urls": [
-      "https://gitee.com/abai569/orchard-manager-updates/releases/download/manager-v1.3.7/orange-manager-1.3.7.apk",
-      "https://gh-proxy.org/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.3.7/orange-manager-1.3.7.apk",
-      "https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.3.7/orange-manager-1.3.7.apk",
-      "https://ghfast.top/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.3.7/orange-manager-1.3.7.apk"
+      "https://gitee.com/abai569/orchard-manager-updates/releases/download/manager-v1.3.8/orange-manager-1.3.8.apk",
+      "https://gh-proxy.org/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.3.8/orange-manager-1.3.8.apk",
+      "https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.3.8/orange-manager-1.3.8.apk",
+      "https://ghfast.top/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.3.8/orange-manager-1.3.8.apk"
     ]
   },
-  "notes": "1.3.7\n- 内置橙龙桌面换成 1.4.6（标准 / guard 148、Lite 146），修复传送文件"
+  "notes": "1.3.8\n- 装桌面/装 APK：ADB 装不了时，把包发给电视上已在运行的橙龙输入法（9988）或橙龙桌面（8899），由它拉起系统安装器\n- 全新电视还没装过橙龙应用：先用 U 盘装一次橙龙输入法，之后手机就能直接推\n- guard 版不再被固件拒收桌面包一刀切跳过\n- 底部版本号随时可点，手动检查更新；以后再说只跳过那一版\n- 橘果 3.2.4 更新到最新构建"
 }
