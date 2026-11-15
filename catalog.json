@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-15",
+  "updated": "2026-11-16",
   "apps": [
     {
       "key": "desktop",
@@ -61,10 +61,10 @@
     },
     {
       "key": "ime",
-      "name": "orange-ime-2.7.9.apk",
+      "name": "orange-ime-2.8.0.apk",
       "packageName": "com.android.tvremoteime",
-      "versionName": "2.7.9",
-      "versionCode": 20709,
+      "versionName": "2.8.0",
+      "versionCode": 20802,
       "minSdk": 21,
       "action": "ENABLE_IME",
       "abi": [
@@ -73,29 +73,29 @@
         "x86",
         "x86_64"
       ],
-      "size": 8578860,
-      "sha256": "71111b1bc6ee355b609ef3b7978a2ea101da01ccec90c097ca4e814fcf5a29af",
+      "size": 7931680,
+      "sha256": "d425335b2032e1ec88e3c26696436087ae2aafb375acffb5123a105d0bd722c0",
       "urls": [
-        "https://gitee.com/abai569/orchard-manager-updates/releases/download/ime-2.7.9/orange-ime-2.7.9.apk",
-        "https://gh-proxy.org/https://github.com/abai569/orchard-manager-updates/releases/download/ime-2.7.9/orange-ime-2.7.9.apk",
-        "https://github.com/abai569/orchard-manager-updates/releases/download/ime-2.7.9/orange-ime-2.7.9.apk",
-        "https://ghfast.top/https://github.com/abai569/orchard-manager-updates/releases/download/ime-2.7.9/orange-ime-2.7.9.apk"
+        "https://gitee.com/abai569/orchard-manager-updates/releases/download/ime-2.8.0/orange-ime-2.8.0.apk",
+        "https://gh-proxy.org/https://github.com/abai569/orchard-manager-updates/releases/download/ime-2.8.0/orange-ime-2.8.0.apk",
+        "https://github.com/abai569/orchard-manager-updates/releases/download/ime-2.8.0/orange-ime-2.8.0.apk",
+        "https://ghfast.top/https://github.com/abai569/orchard-manager-updates/releases/download/ime-2.8.0/orange-ime-2.8.0.apk"
       ]
     },
     {
       "key": "juguo",
-      "name": "orange-juguo-3.2.4.apk",
+      "name": "orange-juguo-3.2.5.apk",
       "packageName": "com.juguo.tv",
-      "versionName": "3.2.4",
-      "versionCode": 324,
+      "versionName": "3.2.5",
+      "versionCode": 326,
       "minSdk": 19,
-      "size": 2871787,
-      "sha256": "0e6715ba50b3de408bb4c1ad2b8efdb284c10c02b8dddf0fd53b6e1b143834a0",
+      "size": 2877300,
+      "sha256": "fa60397501c900a201d95105a35230b269d9a25c3c5c12126ff9a87a41020e73",
       "urls": [
-        "https://gitee.com/abai569/orchard-manager-updates/releases/download/juguo-3.2.4/orange-juguo-3.2.4.apk",
-        "https://gh-proxy.org/https://github.com/abai569/orchard-manager-updates/releases/download/juguo-3.2.4/orange-juguo-3.2.4.apk",
-        "https://github.com/abai569/orchard-manager-updates/releases/download/juguo-3.2.4/orange-juguo-3.2.4.apk",
-        "https://ghfast.top/https://github.com/abai569/orchard-manager-updates/releases/download/juguo-3.2.4/orange-juguo-3.2.4.apk"
+        "https://gitee.com/abai569/orchard-manager-updates/releases/download/juguo-3.2.5/orange-juguo-3.2.5.apk",
+        "https://gh-proxy.org/https://github.com/abai569/orchard-manager-updates/releases/download/juguo-3.2.5/orange-juguo-3.2.5.apk",
+        "https://github.com/abai569/orchard-manager-updates/releases/download/juguo-3.2.5/orange-juguo-3.2.5.apk",
+        "https://ghfast.top/https://github.com/abai569/orchard-manager-updates/releases/download/juguo-3.2.5/orange-juguo-3.2.5.apk"
       ]
     },
     {
