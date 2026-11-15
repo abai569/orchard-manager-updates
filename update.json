@@ -1,20 +1,20 @@
 {
   "schema": 1,
   "packageName": "app.orchard.manager",
-  "versionCode": 149,
-  "versionName": "1.3.9",
+  "versionCode": 150,
+  "versionName": "1.4.0",
   "minSdk": 21,
-  "tag": "manager-v1.3.9",
+  "tag": "manager-v1.4.0",
   "apk": {
-    "name": "orange-manager-1.3.9.apk",
+    "name": "orange-manager-1.4.0.apk",
     "size": 11789991,
-    "sha256": "e7371e3caecc61203d8cbd162a793b7dd130e8b489b7aa28db52cb581fcabc91",
+    "sha256": "cd531556fd83dc9953be021ee69dd91d245d360f271a7c61fd65aa2cc653bcf7",
     "urls": [
-      "https://gitee.com/abai569/orchard-manager-updates/releases/download/manager-v1.3.9/orange-manager-1.3.9.apk",
-      "https://gh-proxy.org/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.3.9/orange-manager-1.3.9.apk",
-      "https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.3.9/orange-manager-1.3.9.apk",
-      "https://ghfast.top/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.3.9/orange-manager-1.3.9.apk"
+      "https://gitee.com/abai569/orchard-manager-updates/releases/download/manager-v1.4.0/orange-manager-1.4.0.apk",
+      "https://gh-proxy.org/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.4.0/orange-manager-1.4.0.apk",
+      "https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.4.0/orange-manager-1.4.0.apk",
+      "https://ghfast.top/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.4.0/orange-manager-1.4.0.apk"
     ]
   },
-  "notes": "1.3.9\n- 设备诊断包：设备身份、默认/候选桌面、守护状态、前台与按键日志、崩溃文件（四条路径）\n- 前台记录：复现主页键问题时自动记录前台切换与 Home 键事件，导出即用\n- ADB 装不了时，改走电视上橙龙输入法（9988）/ 橙龙桌面（8899）的传送通道拉起安装器；全新电视提示先用 U 盘装一次输入法\n- ADB 连接：exec 二进制通道、命令结束流不关的静默收尾、adb reverse 隧道、端口多探、单连接占用提示\n- 同 versionCode 时再比 testN，测试包能在线提示更新\n- 去掉私有 DNS 去广告"
+  "notes": "1.4.0\n- 日志框可以上下滚动，停在末尾自动跟随最新一行\n- 连不上盒子时不再干等 90 秒：握手先等 10 秒，超时直接提示「盒子可能已被别的调试连接占用，请先断开那条连接再重试」"
 }
