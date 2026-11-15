@@ -1,20 +1,20 @@
 {
   "schema": 1,
   "packageName": "app.orchard.manager",
-  "versionCode": 150,
-  "versionName": "1.4.0",
+  "versionCode": 151,
+  "versionName": "1.4.1",
   "minSdk": 21,
-  "tag": "manager-v1.4.0",
+  "tag": "manager-v1.4.1",
   "apk": {
-    "name": "orange-manager-1.4.0.apk",
+    "name": "orange-manager-1.4.1.apk",
     "size": 11789991,
-    "sha256": "cd531556fd83dc9953be021ee69dd91d245d360f271a7c61fd65aa2cc653bcf7",
+    "sha256": "d7578f8654ebfff9309ff488fe023693e3faaf9c53c049e56ed332e82d864b1d",
     "urls": [
-      "https://gitee.com/abai569/orchard-manager-updates/releases/download/manager-v1.4.0/orange-manager-1.4.0.apk",
-      "https://gh-proxy.org/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.4.0/orange-manager-1.4.0.apk",
-      "https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.4.0/orange-manager-1.4.0.apk",
-      "https://ghfast.top/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.4.0/orange-manager-1.4.0.apk"
+      "https://gitee.com/abai569/orchard-manager-updates/releases/download/manager-v1.4.1/orange-manager-1.4.1.apk",
+      "https://gh-proxy.org/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.4.1/orange-manager-1.4.1.apk",
+      "https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.4.1/orange-manager-1.4.1.apk",
+      "https://ghfast.top/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.4.1/orange-manager-1.4.1.apk"
     ]
   },
-  "notes": "1.4.0\n- 日志框可以上下滚动，停在末尾自动跟随最新一行\n- 连不上盒子时不再干等 90 秒：握手先等 10 秒，超时直接提示「盒子可能已被别的调试连接占用，请先断开那条连接再重试」"
+  "notes": "1.4.1\n- 修复点任意按钮可能闪退：电视断开调试连接后不再崩溃，改为日志提示「连接已断开，请重新连接」\n- 崩溃记录改为同步落盘，再出现闪退能看到「上次崩溃」的堆栈\n- 未连上电视时点「恢复电视原生系统」不再没反应：会提示，并用上次的地址自动连一次，连上后弹出确认卡\n- 系列页「橙龙桌面Guard版」文案与其它行对齐：在线 1.4.7 · 电视：已装/未安装"
 }
