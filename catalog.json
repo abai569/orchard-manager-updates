@@ -84,18 +84,18 @@
     },
     {
       "key": "juguo",
-      "name": "orange-juguo-3.2.5.apk",
+      "name": "orange-juguo-3.2.6.apk",
       "packageName": "com.juguo.tv",
-      "versionName": "3.2.5",
+      "versionName": "3.2.6",
       "versionCode": 326,
       "minSdk": 19,
-      "size": 2877300,
-      "sha256": "fa60397501c900a201d95105a35230b269d9a25c3c5c12126ff9a87a41020e73",
+      "size": 3536502,
+      "sha256": "99259431c167c1844ae96d54f4575173f9dd35017394c50383198eca8e978628",
       "urls": [
-        "https://gitee.com/abai569/orchard-manager-updates/releases/download/juguo-3.2.5/orange-juguo-3.2.5.apk",
-        "https://gh-proxy.org/https://github.com/abai569/orchard-manager-updates/releases/download/juguo-3.2.5/orange-juguo-3.2.5.apk",
-        "https://github.com/abai569/orchard-manager-updates/releases/download/juguo-3.2.5/orange-juguo-3.2.5.apk",
-        "https://ghfast.top/https://github.com/abai569/orchard-manager-updates/releases/download/juguo-3.2.5/orange-juguo-3.2.5.apk"
+        "https://gitee.com/abai569/orchard-manager-updates/releases/download/juguo-3.2.6/orange-juguo-3.2.6.apk",
+        "https://gh-proxy.org/https://github.com/abai569/orchard-manager-updates/releases/download/juguo-3.2.6/orange-juguo-3.2.6.apk",
+        "https://github.com/abai569/orchard-manager-updates/releases/download/juguo-3.2.6/orange-juguo-3.2.6.apk",
+        "https://ghfast.top/https://github.com/abai569/orchard-manager-updates/releases/download/juguo-3.2.6/orange-juguo-3.2.6.apk"
       ]
     },
     {
