@@ -1,135 +1,135 @@
 {
- "schema": 1,
- "updated": "2026-11-15",
- "apps": [
-  {
-   "key": "desktop",
-   "name": "橙龙桌面",
-   "packageName": "app.orchard.tv",
-   "versionName": "1.4.6",
-   "versionCode": 148,
-   "minSdk": 21,
-   "abi": [
-    "arm64-v8a",
-    "armeabi-v7a",
-    "x86",
-    "x86_64"
-   ],
-   "variants": {
-    "standard": {
-     "versionName": "1.4.6-test1",
-     "versionCode": 148,
-     "name": "orange-desktop-1.4.6-test1-s.apk",
-     "size": 11876781,
-     "sha256": "28dff77228c584a6266596d4349509db3002b87ddbc2b3c3649bef0b0bb280d9",
-     "urls": [
-      "https://gitee.com/abai569/orchard-manager-updates/releases/download/desktop-1.4.6-test1/orange-desktop-1.4.6-test1-s.apk",
-      "https://gh-proxy.org/https://github.com/abai569/orchard-manager-updates/releases/download/desktop-1.4.6-test1/orange-desktop-1.4.6-test1-s.apk",
-      "https://github.com/abai569/orchard-manager-updates/releases/download/desktop-1.4.6-test1/orange-desktop-1.4.6-test1-s.apk",
-      "https://ghfast.top/https://github.com/abai569/orchard-manager-updates/releases/download/desktop-1.4.6-test1/orange-desktop-1.4.6-test1-s.apk"
-     ]
+  "schema": 1,
+  "updated": "2026-11-17",
+  "apps": [
+    {
+      "key": "desktop",
+      "name": "橙龙桌面",
+      "packageName": "app.orchard.tv",
+      "versionName": "1.4.8",
+      "versionCode": 153,
+      "minSdk": 21,
+      "abi": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "variants": {
+        "standard": {
+          "versionName": "1.4.8",
+          "versionCode": 153,
+          "name": "orange-desktop-1.4.8-s.apk",
+          "size": 4753801,
+          "sha256": "7a771ac40dea429b5c1b2664d7fadf47960705ae0f320f0bdf649b54f6937ebe",
+          "urls": [
+            "https://gitee.com/abai569/orchard-manager-updates/releases/download/desktop-1.4.8/orange-desktop-1.4.8-s.apk",
+            "https://gh-proxy.org/https://github.com/abai569/orchard-manager-updates/releases/download/desktop-1.4.8/orange-desktop-1.4.8-s.apk",
+            "https://github.com/abai569/orchard-manager-updates/releases/download/desktop-1.4.8/orange-desktop-1.4.8-s.apk",
+            "https://ghfast.top/https://github.com/abai569/orchard-manager-updates/releases/download/desktop-1.4.8/orange-desktop-1.4.8-s.apk"
+          ]
+        },
+        "guard": {
+          "name": "orange-desktop-1.4.8-g.apk",
+          "size": 4755414,
+          "sha256": "c1ae43d6984c20cbd98b747a96e316cb94d981b2d2053cd2a50c322626b5ff15",
+          "urls": [
+            "https://gitee.com/abai569/orchard-manager-updates/releases/download/desktop-1.4.8/orange-desktop-1.4.8-g.apk",
+            "https://gh-proxy.org/https://github.com/abai569/orchard-manager-updates/releases/download/desktop-1.4.8/orange-desktop-1.4.8-g.apk",
+            "https://github.com/abai569/orchard-manager-updates/releases/download/desktop-1.4.8/orange-desktop-1.4.8-g.apk",
+            "https://ghfast.top/https://github.com/abai569/orchard-manager-updates/releases/download/desktop-1.4.8/orange-desktop-1.4.8-g.apk"
+          ],
+          "versionName": "1.4.8-guard",
+          "versionCode": 153
+        },
+        "lite": {
+          "name": "orange-desktop-1.4.8-l.apk",
+          "size": 1039006,
+          "sha256": "02ae5287abc16b389f6a95f52c75a4e98c136281d0c45c9a3775ca55c2f47d4e",
+          "urls": [
+            "https://gitee.com/abai569/orchard-manager-updates/releases/download/desktop-1.4.8/orange-desktop-1.4.8-l.apk",
+            "https://gh-proxy.org/https://github.com/abai569/orchard-manager-updates/releases/download/desktop-1.4.8/orange-desktop-1.4.8-l.apk",
+            "https://github.com/abai569/orchard-manager-updates/releases/download/desktop-1.4.8/orange-desktop-1.4.8-l.apk",
+            "https://ghfast.top/https://github.com/abai569/orchard-manager-updates/releases/download/desktop-1.4.8/orange-desktop-1.4.8-l.apk"
+          ],
+          "packageName": "app.orchard.tv.lite",
+          "versionName": "1.4.8",
+          "versionCode": 148,
+          "minSdk": 14
+        }
+      }
     },
-    "guard": {
-     "name": "orange-desktop-1.4.6-g.apk",
-     "size": 4753160,
-     "sha256": "5bf1ea411710126bb14ee265fb1a59c0d59412311f8d926c2d6edd2e7a5bc3f7",
-     "urls": [
-      "https://gitee.com/abai569/orchard-manager-updates/releases/download/desktop-1.4.6/orange-desktop-1.4.6-g.apk",
-      "https://gh-proxy.org/https://github.com/abai569/orchard-manager-updates/releases/download/desktop-1.4.6/orange-desktop-1.4.6-g.apk",
-      "https://github.com/abai569/orchard-manager-updates/releases/download/desktop-1.4.6/orange-desktop-1.4.6-g.apk",
-      "https://ghfast.top/https://github.com/abai569/orchard-manager-updates/releases/download/desktop-1.4.6/orange-desktop-1.4.6-g.apk"
-     ],
-     "versionName": "1.4.6-guard",
-     "versionCode": 148
+    {
+      "key": "ime",
+      "name": "orange-ime-2.7.9.apk",
+      "packageName": "com.android.tvremoteime",
+      "versionName": "2.7.9",
+      "versionCode": 20709,
+      "minSdk": 21,
+      "action": "ENABLE_IME",
+      "abi": [
+        "arm64-v8a",
+        "armeabi-v7a",
+        "x86",
+        "x86_64"
+      ],
+      "size": 8578860,
+      "sha256": "71111b1bc6ee355b609ef3b7978a2ea101da01ccec90c097ca4e814fcf5a29af",
+      "urls": [
+        "https://gitee.com/abai569/orchard-manager-updates/releases/download/ime-2.7.9/orange-ime-2.7.9.apk",
+        "https://gh-proxy.org/https://github.com/abai569/orchard-manager-updates/releases/download/ime-2.7.9/orange-ime-2.7.9.apk",
+        "https://github.com/abai569/orchard-manager-updates/releases/download/ime-2.7.9/orange-ime-2.7.9.apk",
+        "https://ghfast.top/https://github.com/abai569/orchard-manager-updates/releases/download/ime-2.7.9/orange-ime-2.7.9.apk"
+      ]
     },
-    "lite": {
-     "name": "orange-desktop-1.4.6-l.apk",
-     "size": 1038940,
-     "sha256": "f4487ff330beac2dce2dc7496d62224f98aa143e84ef8e513b2f1bb6de35bc2d",
-     "urls": [
-      "https://gitee.com/abai569/orchard-manager-updates/releases/download/desktop-1.4.6/orange-desktop-1.4.6-l.apk",
-      "https://gh-proxy.org/https://github.com/abai569/orchard-manager-updates/releases/download/desktop-1.4.6/orange-desktop-1.4.6-l.apk",
-      "https://github.com/abai569/orchard-manager-updates/releases/download/desktop-1.4.6/orange-desktop-1.4.6-l.apk",
-      "https://ghfast.top/https://github.com/abai569/orchard-manager-updates/releases/download/desktop-1.4.6/orange-desktop-1.4.6-l.apk"
-     ],
-     "packageName": "app.orchard.tv.lite",
-     "versionName": "1.4.6",
-     "versionCode": 146,
-     "minSdk": 14
+    {
+      "key": "juguo",
+      "name": "orange-juguo-3.2.6.apk",
+      "packageName": "com.juguo.tv",
+      "versionName": "3.2.6",
+      "versionCode": 326,
+      "minSdk": 19,
+      "size": 3536502,
+      "sha256": "99259431c167c1844ae96d54f4575173f9dd35017394c50383198eca8e978628",
+      "urls": [
+        "https://gitee.com/abai569/orchard-manager-updates/releases/download/juguo-3.2.6/orange-juguo-3.2.6.apk",
+        "https://gh-proxy.org/https://github.com/abai569/orchard-manager-updates/releases/download/juguo-3.2.6/orange-juguo-3.2.6.apk",
+        "https://github.com/abai569/orchard-manager-updates/releases/download/juguo-3.2.6/orange-juguo-3.2.6.apk",
+        "https://ghfast.top/https://github.com/abai569/orchard-manager-updates/releases/download/juguo-3.2.6/orange-juguo-3.2.6.apk"
+      ]
+    },
+    {
+      "key": "datitv",
+      "name": "orange-datitv-1.0.2.apk",
+      "packageName": "com.datitv.app",
+      "versionName": "1.0.2",
+      "versionCode": 177,
+      "minSdk": 14,
+      "action": "GRANT_ALL",
+      "size": 4644306,
+      "sha256": "539b619cc1adbc2b54c8fb9642867675dc52ab3b16c4dfeda9f20885faf6e745",
+      "urls": [
+        "https://gitee.com/abai569/orchard-manager-updates/releases/download/datitv-1.0.2/orange-datitv-1.0.2.apk",
+        "https://gh-proxy.org/https://github.com/abai569/orchard-manager-updates/releases/download/datitv-1.0.2/orange-datitv-1.0.2.apk",
+        "https://github.com/abai569/orchard-manager-updates/releases/download/datitv-1.0.2/orange-datitv-1.0.2.apk",
+        "https://ghfast.top/https://github.com/abai569/orchard-manager-updates/releases/download/datitv-1.0.2/orange-datitv-1.0.2.apk"
+      ]
+    },
+    {
+      "key": "file",
+      "name": "小白文件管理器",
+      "packageName": "com.xiaobaifile.tv",
+      "versionName": "2.8.0",
+      "versionCode": 45,
+      "minSdk": 14,
+      "size": 6031844,
+      "sha256": "443e088719041cc8938d05338f9f96fc06740444499e3c5abe449981022edf37",
+      "urls": [
+        "https://gh-proxy.org/https://github.com/abai569/orchard-manager-updates/releases/download/file-2.8.0/orange-file-2.8.0.apk",
+        "https://github.com/abai569/orchard-manager-updates/releases/download/file-2.8.0/orange-file-2.8.0.apk",
+        "https://ghfast.top/https://github.com/abai569/orchard-manager-updates/releases/download/file-2.8.0/orange-file-2.8.0.apk",
+        "https://chfs.abai.eu.org/xbwjglq.apk"
+      ]
     }
-   }
-  },
-  {
-   "key": "ime",
-   "name": "orange-ime-2.7.9.apk",
-   "packageName": "com.android.tvremoteime",
-   "versionName": "2.7.9",
-   "versionCode": 20709,
-   "minSdk": 21,
-   "action": "ENABLE_IME",
-   "abi": [
-    "arm64-v8a",
-    "armeabi-v7a",
-    "x86",
-    "x86_64"
-   ],
-   "size": 8578860,
-   "sha256": "71111b1bc6ee355b609ef3b7978a2ea101da01ccec90c097ca4e814fcf5a29af",
-   "urls": [
-    "https://gitee.com/abai569/orchard-manager-updates/releases/download/ime-2.7.9/orange-ime-2.7.9.apk",
-    "https://gh-proxy.org/https://github.com/abai569/orchard-manager-updates/releases/download/ime-2.7.9/orange-ime-2.7.9.apk",
-    "https://github.com/abai569/orchard-manager-updates/releases/download/ime-2.7.9/orange-ime-2.7.9.apk",
-    "https://ghfast.top/https://github.com/abai569/orchard-manager-updates/releases/download/ime-2.7.9/orange-ime-2.7.9.apk"
-   ]
-  },
-  {
-   "key": "juguo",
-   "name": "orange-juguo-3.2.6.apk",
-   "packageName": "com.juguo.tv",
-   "versionName": "3.2.6",
-   "versionCode": 326,
-   "minSdk": 19,
-   "size": 3536502,
-   "sha256": "99259431c167c1844ae96d54f4575173f9dd35017394c50383198eca8e978628",
-   "urls": [
-    "https://gitee.com/abai569/orchard-manager-updates/releases/download/juguo-3.2.6/orange-juguo-3.2.6.apk",
-    "https://gh-proxy.org/https://github.com/abai569/orchard-manager-updates/releases/download/juguo-3.2.6/orange-juguo-3.2.6.apk",
-    "https://github.com/abai569/orchard-manager-updates/releases/download/juguo-3.2.6/orange-juguo-3.2.6.apk",
-    "https://ghfast.top/https://github.com/abai569/orchard-manager-updates/releases/download/juguo-3.2.6/orange-juguo-3.2.6.apk"
-   ]
-  },
-  {
-   "key": "datitv",
-   "name": "orange-datitv-1.0.2.apk",
-   "packageName": "com.datitv.app",
-   "versionName": "1.0.2",
-   "versionCode": 177,
-   "minSdk": 14,
-   "action": "GRANT_ALL",
-   "size": 4644306,
-   "sha256": "539b619cc1adbc2b54c8fb9642867675dc52ab3b16c4dfeda9f20885faf6e745",
-   "urls": [
-    "https://gitee.com/abai569/orchard-manager-updates/releases/download/datitv-1.0.2/orange-datitv-1.0.2.apk",
-    "https://gh-proxy.org/https://github.com/abai569/orchard-manager-updates/releases/download/datitv-1.0.2/orange-datitv-1.0.2.apk",
-    "https://github.com/abai569/orchard-manager-updates/releases/download/datitv-1.0.2/orange-datitv-1.0.2.apk",
-    "https://ghfast.top/https://github.com/abai569/orchard-manager-updates/releases/download/datitv-1.0.2/orange-datitv-1.0.2.apk"
-   ]
-  },
-  {
-   "key": "file",
-   "name": "小白文件管理器",
-   "packageName": "com.xiaobaifile.tv",
-   "versionName": "2.8.0",
-   "versionCode": 45,
-   "minSdk": 14,
-   "size": 6031844,
-   "sha256": "443e088719041cc8938d05338f9f96fc06740444499e3c5abe449981022edf37",
-   "urls": [
-    "https://gh-proxy.org/https://github.com/abai569/orchard-manager-updates/releases/download/file-2.8.0/orange-file-2.8.0.apk",
-    "https://github.com/abai569/orchard-manager-updates/releases/download/file-2.8.0/orange-file-2.8.0.apk",
-    "https://ghfast.top/https://github.com/abai569/orchard-manager-updates/releases/download/file-2.8.0/orange-file-2.8.0.apk",
-    "https://chfs.abai.eu.org/xbwjglq.apk"
-   ]
-  }
- ]
+  ]
 }
