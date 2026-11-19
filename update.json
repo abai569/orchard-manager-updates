@@ -1,20 +1,20 @@
 {
   "schema": 1,
   "packageName": "app.orchard.manager",
-  "versionCode": 160,
-  "versionName": "1.4.2",
+  "versionCode": 173,
+  "versionName": "1.4.3",
   "minSdk": 21,
-  "tag": "manager-v1.4.2",
+  "tag": "manager-v1.4.3",
   "apk": {
-    "name": "orange-manager-1.4.2.apk",
-    "size": 2053562,
-    "sha256": "81e4bc0352835564fe45a9de4e38ad86c9c34387abd37fa98dac0dbb78ed853b",
+    "name": "orange-manager-1.4.3.apk",
+    "size": 2078138,
+    "sha256": "f2291cce7ccd414c82bae2b7675746f8d7c6eb5afdbb2cbb14468e3bce601aae",
     "urls": [
-      "https://gitee.com/abai569/orchard-manager-updates/releases/download/manager-v1.4.2/orange-manager-1.4.2.apk",
-      "https://gh-proxy.org/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.4.2/orange-manager-1.4.2.apk",
-      "https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.4.2/orange-manager-1.4.2.apk",
-      "https://ghfast.top/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.4.2/orange-manager-1.4.2.apk"
+      "https://gitee.com/abai569/orchard-manager-updates/releases/download/manager-v1.4.3/orange-manager-1.4.3.apk",
+      "https://gh-proxy.org/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.4.3/orange-manager-1.4.3.apk",
+      "https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.4.3/orange-manager-1.4.3.apk",
+      "https://ghfast.top/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.4.3/orange-manager-1.4.3.apk"
     ]
   },
-  "notes": "1.4.2\n- 体积从 11.8MB 降到 2.0MB：桌面三件套（标准/Guard/Lite）不再内置，改为按在线清单取包，本地有缓存就直接复用\n- 传输通道从五条扩到七条（新增「多屏互动推送」「补库路径」），装完给一段通道结论：哪条不通、原因、是否进黑名单、下次是否跳过\n- 安装前后各核对一次：装前 pm 自检，装完回查包与 versionCode，假成功会明确报出来\n- 连接失败分四类排障：无线调试端口随机、需要配对码、路由器设备隔离、待机断连，各给对应引导\n- 升级前预检：电视装的是 Lite 还是标准、签名是否一致；会丢配置时先提示，先导出配置再决定\n- 装完自动设默认桌面并实测 Home 键；原厂桌面会抢回时给出「停用原厂桌面（随时可还原）」\n- ADB 教程扩到 45 条，按 电视/盒子/投影/不支持/通用 分类并支持搜索，点品牌自动跳到步骤\n- 新增「连不上排查」14 条；「电视原生系统管理」页里加入高级工具（控件点选/命令中心/权限/批量）\n- TCL 兜底改进：安装包推到电视后 chmod 644 并触发媒体库扫描，文件管理里能直接看到\n- 「断系统升级」可一键执行，也可一键还原"
+  "notes": "1.4.3\n- 新增「无障碍服务管理」：电视原生系统管理页首项，用现有 ADB 连接列出电视上的无障碍服务，逐项开启/关闭并回读真实状态\n- 每张服务卡片四行：应用名 + 已开启/未开启、包名/服务名、服务说明、等宽「开启」「关闭」双按钮\n- 应用名和图标取自本机缓存里的 APK，缓存没有再按需从电视拉 base.apk（最多 6 个，命中后 7 天不重复拉）\n- G 版桌面卡片新增「开启守护」按钮：一键写无障碍 + 通知监听并回读绑定状态，只动本包、保留其他无障碍服务、默认桌面不变\n- 新版 G 版包名 app.chenglong.tv 与旧版 app.orchard.tv 双包识别：版本显示、守护配置、主页替身、卸载/复原全部按实际安装的包走\n- 修 S 版装不上转 G 版链路：G 包装完不再误走标准版的「设默认桌面」，主页替身的安装判断与移除也按实际包名\n- 安装前签名预检对 G 版也生效，不能覆盖时先提示再动手\n- 遥控器操作：所有按钮/卡片可聚焦、焦点描边统一、进页面焦点落在「自动查找」，确认键自己处理（带回 350ms 去抖），日志面板进面板焦点落在「保存」\n- 日志面板把「复制」并入保存/清空那一排，遥控器可直接按\n- 「电视原生系统管理」按新设计稿重排：连接状态收进日志框左上角红/绿点，无障碍服务管理与紧急复原并排，六项工具两列紧凑，高级工具整卡展示"
 }
