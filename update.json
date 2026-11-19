@@ -1,20 +1,20 @@
 {
-  "schema": 1,
-  "packageName": "app.orchard.manager",
-  "versionCode": 174,
-  "versionName": "1.4.4",
-  "minSdk": 21,
-  "tag": "manager-v1.4.4",
-  "apk": {
-    "name": "orange-manager-1.4.4.apk",
-    "size": 2082234,
-    "sha256": "1d6032e60469445aab8dd5e5ce01104ace70bf4f21bd491ce84856bf3be939ec",
-    "urls": [
-      "https://gitee.com/abai569/orchard-manager-updates/releases/download/manager-v1.4.4/orange-manager-1.4.4.apk",
-      "https://gh-proxy.org/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.4.4/orange-manager-1.4.4.apk",
-      "https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.4.4/orange-manager-1.4.4.apk",
-      "https://ghfast.top/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.4.4/orange-manager-1.4.4.apk"
-    ]
-  },
-  "notes": "1.4.4\n- 修 S 版装不上时不再把标准版丢给电视去手点：标准版自动安装没走通、且电视上没有橙龙桌面，工具直接改推 G 版（app.chenglong.tv 守护版），G 版没有桌面身份，这类固件能装\n- 其余与 1.4.3 相同：无障碍服务管理、四行服务卡片、G 版开启守护、新旧 G 包双包识别、遥控器焦点与日志面板"
+ "schema": 1,
+ "packageName": "app.orchard.manager",
+ "versionCode": 175,
+ "versionName": "1.4.5",
+ "minSdk": 21,
+ "tag": "manager-v1.4.5",
+ "apk": {
+  "name": "orange-manager-1.4.5.apk",
+  "size": 2082234,
+  "sha256": "9d462e1534846232624887cbf554fddca0ffb5d2b7cf0a73b26e54ddf8ae421e",
+  "urls": [
+   "https://gitee.com/abai569/orchard-manager-updates/releases/download/manager-v1.4.5/orange-manager-1.4.5.apk",
+   "https://gh-proxy.org/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.4.5/orange-manager-1.4.5.apk",
+   "https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.4.5/orange-manager-1.4.5.apk",
+   "https://ghfast.top/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.4.5/orange-manager-1.4.5.apk"
+  ]
+ },
+ "notes": "1.4.5\n- 装桌前先清掉电视 Download 里以前推的旧安装包（只删橙龙桌面自己的 apk，不卸载应用、不动别的文件）\n- 旧包名的 Lite 桌面（app.orchard.tv.lite）也能识别、也能在「卸载橙龙桌面」里清掉\n- 新桌面装好、默认桌面切过去之后，自动卸载电视上残留的旧包名桌面，免得并排两个橙龙桌面；守护版没有主页替身、或默认桌面还没切过去时会留着不删，避免开机没桌面"
 }
