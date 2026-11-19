@@ -1,20 +1,20 @@
 {
   "schema": 1,
   "packageName": "app.orchard.manager",
-  "versionCode": 173,
-  "versionName": "1.4.3",
+  "versionCode": 174,
+  "versionName": "1.4.4",
   "minSdk": 21,
-  "tag": "manager-v1.4.3",
+  "tag": "manager-v1.4.4",
   "apk": {
-    "name": "orange-manager-1.4.3.apk",
-    "size": 2078138,
-    "sha256": "f2291cce7ccd414c82bae2b7675746f8d7c6eb5afdbb2cbb14468e3bce601aae",
+    "name": "orange-manager-1.4.4.apk",
+    "size": 2082234,
+    "sha256": "1d6032e60469445aab8dd5e5ce01104ace70bf4f21bd491ce84856bf3be939ec",
     "urls": [
-      "https://gitee.com/abai569/orchard-manager-updates/releases/download/manager-v1.4.3/orange-manager-1.4.3.apk",
-      "https://gh-proxy.org/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.4.3/orange-manager-1.4.3.apk",
-      "https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.4.3/orange-manager-1.4.3.apk",
-      "https://ghfast.top/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.4.3/orange-manager-1.4.3.apk"
+      "https://gitee.com/abai569/orchard-manager-updates/releases/download/manager-v1.4.4/orange-manager-1.4.4.apk",
+      "https://gh-proxy.org/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.4.4/orange-manager-1.4.4.apk",
+      "https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.4.4/orange-manager-1.4.4.apk",
+      "https://ghfast.top/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.4.4/orange-manager-1.4.4.apk"
     ]
   },
-  "notes": "1.4.3\n- 新增「无障碍服务管理」：电视原生系统管理页首项，用现有 ADB 连接列出电视上的无障碍服务，逐项开启/关闭并回读真实状态\n- 每张服务卡片四行：应用名 + 已开启/未开启、包名/服务名、服务说明、等宽「开启」「关闭」双按钮\n- 应用名和图标取自本机缓存里的 APK，缓存没有再按需从电视拉 base.apk（最多 6 个，命中后 7 天不重复拉）\n- G 版桌面卡片新增「开启守护」按钮：一键写无障碍 + 通知监听并回读绑定状态，只动本包、保留其他无障碍服务、默认桌面不变\n- 新版 G 版包名 app.chenglong.tv 与旧版 app.orchard.tv 双包识别：版本显示、守护配置、主页替身、卸载/复原全部按实际安装的包走\n- 修 S 版装不上转 G 版链路：G 包装完不再误走标准版的「设默认桌面」，主页替身的安装判断与移除也按实际包名\n- 安装前签名预检对 G 版也生效，不能覆盖时先提示再动手\n- 遥控器操作：所有按钮/卡片可聚焦、焦点描边统一、进页面焦点落在「自动查找」，确认键自己处理（带回 350ms 去抖），日志面板进面板焦点落在「保存」\n- 日志面板把「复制」并入保存/清空那一排，遥控器可直接按\n- 「电视原生系统管理」按新设计稿重排：连接状态收进日志框左上角红/绿点，无障碍服务管理与紧急复原并排，六项工具两列紧凑，高级工具整卡展示"
+  "notes": "1.4.4\n- 修 S 版装不上时不再把标准版丢给电视去手点：标准版自动安装没走通、且电视上没有橙龙桌面，工具直接改推 G 版（app.chenglong.tv 守护版），G 版没有桌面身份，这类固件能装\n- 其余与 1.4.3 相同：无障碍服务管理、四行服务卡片、G 版开启守护、新旧 G 包双包识别、遥控器焦点与日志面板"
 }
