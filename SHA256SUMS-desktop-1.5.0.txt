@@ -1,0 +1,3 @@
+4dfdbbfa01bfbfb36ad59dc400a65bcbdd8d4e204ff0c7f998ce6119be8b2fb7  orange-desktop-1.5.0-s.apk
+85f21ae5c5dd3a6d903cdf226902419a04d6659b3ce954d151997d126290527a  orange-desktop-1.5.0-g.apk
+b8c5bedc939432ec740b652edd15793e7184dfa7d796249026ccf26d55ad045d  orange-desktop-1.5.0-l.apk
