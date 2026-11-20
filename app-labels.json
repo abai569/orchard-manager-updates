@@ -1,0 +1,1001 @@
+{
+"version": 1,
+"updated": "2026-11-20",
+"apps": {
+"android": [
+"Android 系统框架",
+"",
+""
+],
+"android.autoinstalls.config.hisense.xiaoyushan": [
+"出厂预装配置",
+"出厂自动装应用的配置器",
+""
+],
+"app.chenglong.tv": [
+"橙龙桌面",
+"我们的桌面",
+"我们自己的应用"
+],
+"app.chenglong.tv.lite": [
+"橙龙桌面 Lite",
+"我们的轻量桌面",
+"我们自己的应用"
+],
+"app.orchard.manager": [
+"橙龙桌面工具",
+"手机端工具（一般不在电视上）",
+"我们自己的应用"
+],
+"app.orchard.tv": [
+"橙龙桌面",
+"我们的桌面",
+"我们自己的应用"
+],
+"app.orchard.tv.lite": [
+"橙龙桌面 Lite",
+"我们的轻量桌面",
+"我们自己的应用"
+],
+"com.aispeech.dui.dds.tvassistant": [
+"思必驰语音助手",
+"第三方语音后台",
+""
+],
+"com.amazon.amazonvideo.livingroom": [
+"Prime Video",
+"",
+""
+],
+"com.android.bluetooth": [
+"蓝牙",
+"蓝牙遥控器、蓝牙音箱都靠它",
+"蓝牙服务，停了蓝牙遥控器和蓝牙音箱都用不了"
+],
+"com.android.chrome": [
+"Chrome 浏览器",
+"",
+""
+],
+"com.android.managedprovisioning": [
+"系统组件 · 设备管理",
+"企业/家长管控模式",
+"系统关键组件，停用会影响电视基础功能"
+],
+"com.android.packageinstaller": [
+"系统安装器",
+"安装应用用",
+""
+],
+"com.android.pacprocessor": [
+"系统组件 · 代理脚本",
+"网络代理脚本处理",
+"系统关键组件，停用会影响电视基础功能"
+],
+"com.android.permissioncontroller": [
+"权限管理",
+"应用授权",
+""
+],
+"com.android.providers.downloads": [
+"系统下载服务",
+"下载文件用它",
+""
+],
+"com.android.providers.settings": [
+"系统配置库",
+"保存电视的所有设置项",
+""
+],
+"com.android.provision": [
+"首次开机引导",
+"新机首次开机时的配对/引导页",
+""
+],
+"com.android.proxyhandler": [
+"系统组件 · 代理处理",
+"网络代理",
+"系统关键组件，停用会影响电视基础功能"
+],
+"com.android.settings": [
+"系统设置",
+"电视的设置菜单",
+""
+],
+"com.android.shell": [
+"系统调试外壳",
+"ADB 命令的执行者",
+""
+],
+"com.android.systemui": [
+"系统界面",
+"状态栏、音量条等系统界面",
+""
+],
+"com.android.tv.settings": [
+"电视设置",
+"电视的设置菜单",
+""
+],
+"com.android.vending": [
+"Play 商店",
+"装应用、更新应用",
+""
+],
+"com.android.webview": [
+"网页组件",
+"内置网页视图，很多应用要用",
+""
+],
+"com.android.wechathci": [
+"微信电视",
+"电视版微信互联，用不到删",
+""
+],
+"com.apple.atve.androidtv.appletv": [
+"Apple TV",
+"",
+""
+],
+"com.coocaa.activecenter": [
+"激活中心",
+"会员激活入口",
+""
+],
+"com.coocaa.app_browser": [
+"酷开浏览器",
+"内置浏览器",
+""
+],
+"com.coocaa.factory": [
+"工厂菜单",
+"售后维修菜单，别动",
+""
+],
+"com.coocaa.guide": [
+"新手引导",
+"开机引导，装完就不用了",
+""
+],
+"com.coocaa.mall": [
+"酷开商城",
+"购物入口",
+""
+],
+"com.coocaa.os.customerservice": [
+"在线客服",
+"客服入口",
+""
+],
+"com.coocaa.screensaver": [
+"电视画报",
+"屏保/画报广告",
+""
+],
+"com.coocaa.sky.ccapi": [
+"支付中心",
+"电视内购付款用",
+""
+],
+"com.coocaa.sysreport": [
+"酷开数据上报",
+"使用数据回传",
+""
+],
+"com.coocaa.teampresent": [
+"帮助与反馈",
+"客服入口",
+""
+],
+"com.coocaa.tvmanager": [
+"电视管家",
+"创维自带清理/加速",
+""
+],
+"com.crunchyroll.crunchyroid": [
+"Crunchyroll",
+"",
+""
+],
+"com.dangbei.tvlauncher": [
+"当贝桌面",
+"第三方电视桌面",
+"第三方桌面（声明了 HOME），停用会黑屏"
+],
+"com.dianshijia.tv": [
+"电视家",
+"第三方电视直播应用",
+""
+],
+"com.disney.disneyplus": [
+"Disney+",
+"",
+""
+],
+"com.duokan.airkan.tvbox": [
+"多看投屏",
+"投屏接收端，不用投屏可删",
+""
+],
+"com.duokan.videodaily": [
+"视频画报",
+"屏保推广告视频",
+""
+],
+"com.google.android.apps.mediashell": [
+"Chromecast 内置接收端",
+"停用后手机投屏到电视就用不了",
+"停用后手机投屏到电视就用不了"
+],
+"com.google.android.apps.tv.launcherx": [
+"Google TV 原厂桌面",
+"",
+""
+],
+"com.google.android.gms": [
+"Google 基础服务",
+"账号、投屏、商店都依赖它",
+""
+],
+"com.google.android.gsf": [
+"Google 服务框架",
+"",
+""
+],
+"com.google.android.inputmethod.latin": [
+"Gboard 输入法",
+"",
+""
+],
+"com.google.android.packageinstaller": [
+"Google 安装器",
+"安装应用用",
+""
+],
+"com.google.android.play.games": [
+"Google Play 游戏",
+"",
+""
+],
+"com.google.android.tts": [
+"Google 语音朗读",
+"",
+""
+],
+"com.google.android.tv.remote.service": [
+"Android TV 手机遥控服务",
+"",
+""
+],
+"com.google.android.tvlauncher": [
+"Android TV 原厂桌面",
+"",
+""
+],
+"com.google.android.webview": [
+"网页组件",
+"内置网页视图，很多应用要用",
+""
+],
+"com.google.android.youtube.tv": [
+"YouTube",
+"",
+""
+],
+"com.google.android.youtube.tvkids": [
+"YouTube Kids",
+"",
+""
+],
+"com.google.android.youtube.tvmusic": [
+"YouTube Music",
+"",
+""
+],
+"com.hisense.app.logreport": [
+"日志上报",
+"日志收集服务，纯后台",
+""
+],
+"com.hisense.ar.baike": [
+"AR 百科",
+"预装小功能",
+""
+],
+"com.hisense.autotest": [
+"出厂自动测试",
+"生产线测试工具，对用户没用",
+""
+],
+"com.hisense.business.ad": [
+"海信广告 SDK",
+"开机/桌面广告",
+""
+],
+"com.hisense.childlock": [
+"儿童锁",
+"家长控制，家里有小孩别删",
+""
+],
+"com.hisense.demonstrate": [
+"卖场演示模式",
+"商场演示用，家用可删",
+""
+],
+"com.hisense.electronictutorial": [
+"电子说明书",
+"说明书 App",
+""
+],
+"com.hisense.hitv.das": [
+"数据上报",
+"使用数据上报（DasApp），纯后台",
+""
+],
+"com.hisense.hitv.hicloud.account": [
+"会员中心",
+"会员营销/续费弹窗来源",
+""
+],
+"com.hisense.hitv.payment": [
+"支付中心",
+"电视内购付款用",
+""
+],
+"com.hisense.hotelmenu": [
+"酒店模式",
+"酒店定制功能，家用可删",
+""
+],
+"com.hisense.logupload": [
+"日志上传",
+"日志回传",
+""
+],
+"com.hisense.msvoicetome": [
+"语音听写",
+"语音转文字",
+""
+],
+"com.hisense.myapplication": [
+"海信屏保",
+"DayDream 屏保，用 Aerial 后可删",
+""
+],
+"com.hisense.platformreport": [
+"海信数据上报",
+"使用数据回传",
+""
+],
+"com.hisense.remoteupgrade": [
+"遥控器监测/升级",
+"管遥控器状态和固件",
+"系统关键组件，停用会影响电视基础功能"
+],
+"com.hisense.service.ad": [
+"海信广告服务",
+"广告下发",
+""
+],
+"com.hisense.service.message": [
+"通知中心",
+"系统营销弹窗/通知",
+""
+],
+"com.hisense.smartimages": [
+"小聚识图",
+"截图/画面识别，用不到可删",
+""
+],
+"com.hisense.storemode": [
+"卖场模式",
+"商场演示模式",
+""
+],
+"com.hisense.tv.customerlauncher": [
+"客户桌面组件",
+"桌面相关组件，别删",
+"系统关键组件，停用会影响电视基础功能"
+],
+"com.hisense.tv.familyalbum": [
+"家庭相册",
+"亲人圈照片共享，不用可删",
+""
+],
+"com.hisense.tv.fitmirror": [
+"健身镜",
+"预装健身",
+""
+],
+"com.hisense.tv.foodmanage": [
+"菜谱",
+"预装菜谱",
+""
+],
+"com.hisense.tv.hisremotenow": [
+"RemoteNOW遥控",
+"手机当遥控器/投屏，不用可删",
+""
+],
+"com.hisense.tv.ota": [
+"系统在线升级",
+"固件更新",
+""
+],
+"com.hisense.tv.smartsense": [
+"智能感知",
+"系统感知服务，别删",
+"系统关键组件，停用会影响电视基础功能"
+],
+"com.hisense.tv.videochat.social": [
+"视频通话",
+"预装视频聊天",
+""
+],
+"com.hisense.tv.videoconference": [
+"视频会议",
+"预装会议 App",
+""
+],
+"com.hisense.tv.weather": [
+"天气",
+"预装天气",
+""
+],
+"com.hisense.usbupgrade": [
+"U 盘升级",
+"插 U 盘刷固件用",
+""
+],
+"com.icoolme.tv.weather": [
+"天气",
+"预装天气",
+""
+],
+"com.iflytek.xiri": [
+"讯飞语音",
+"语音识别后台",
+""
+],
+"com.intelligent.speech": [
+"智能语音",
+"语音识别服务",
+""
+],
+"com.iplayer.android.webview": [
+"com.iplayer.android.webview",
+"内置网页组件（其他厂商），停用后部分应用的网页打不开",
+"内置网页组件（其他厂商），停用后部分应用的网页打不开"
+],
+"com.jamdeo.calendar": [
+"日历",
+"预装日历，没用",
+""
+],
+"com.jamdeo.screensaver": [
+"聚好看屏保",
+"待机屏保，用 Aerial 后可删",
+""
+],
+"com.jamdeo.tv.fte": [
+"天气/景色组件",
+"预装小组件",
+""
+],
+"com.jamdeo.tv.mediacenter": [
+"媒体中心",
+"读 U 盘视频/图片/音乐",
+""
+],
+"com.jamdeo.tv.vod": [
+"聚好看（海信首页）",
+"VIDAA 的桌面本体",
+"系统关键组件，停用会影响电视基础功能"
+],
+"com.keylab.speech.core.vidaa": [
+"语音识别引擎",
+"语音核心",
+""
+],
+"com.keylab.speech.view.vidaa": [
+"VIDAA 语音界面",
+"语音助手 UI",
+""
+],
+"com.mediatek.speakerservice": [
+"com.mediatek.speakerservice",
+"电视自带扬声器靠它出声，停用后声音可能变小或没声音",
+"电视自带扬声器靠它出声，停用后声音可能变小或没声音"
+],
+"com.mediatek.support.webview": [
+"com.mediatek.support.webview",
+"电视内置网页组件，停用后部分应用的网页打不开",
+"电视内置网页组件，停用后部分应用的网页打不开"
+],
+"com.mipay.wallet.tv": [
+"小米钱包",
+"电视钱包",
+""
+],
+"com.mitv.alarmcenter": [
+"定时提醒",
+"定时关机/提醒，基本没人用",
+""
+],
+"com.mitv.gallery": [
+"米家相册",
+"看本地图片视频，可用第三方替代",
+""
+],
+"com.mitv.mivideoplayer": [
+"米家视频播放器",
+"本地播放核心组件",
+"系统关键组件，停用会影响电视基础功能"
+],
+"com.mitv.screensaver": [
+"米家屏保",
+"待机屏保",
+""
+],
+"com.mitv.shoplugin": [
+"购物插件",
+"电视购物广告插件",
+""
+],
+"com.mitv.videoplayer": [
+"米家播放器",
+"本地视频播放组件",
+"系统关键组件，停用会影响电视基础功能"
+],
+"com.miui.tv.analytics": [
+"数据统计上报",
+"偷偷上传你的使用习惯，纯后台",
+""
+],
+"com.netflix.ninja": [
+"Netflix",
+"",
+""
+],
+"com.plexapp.android": [
+"Plex",
+"",
+""
+],
+"com.seraphic.browser": [
+"海信浏览器",
+"VIDAA 内置浏览器",
+""
+],
+"com.shafa.market": [
+"沙发管家",
+"第三方应用市场",
+""
+],
+"com.skyworth.skymarket": [
+"创维应用市场",
+"装软件用",
+""
+],
+"com.skyworth.smarthome_tv": [
+"小维智联",
+"智能家居联动",
+""
+],
+"com.sohu.inputmethod.sogou.tv": [
+"搜狗电视输入法",
+"输入文字用",
+"系统关键组件，停用会影响电视基础功能"
+],
+"com.spocky.projengmenu": [
+"Projectivy 桌面",
+"",
+""
+],
+"com.spotify.tv.android": [
+"Spotify",
+"",
+""
+],
+"com.tcl.MultiScreenInteraction_TV": [
+"多屏互动",
+"手机投屏/互联",
+""
+],
+"com.tcl.android.webview": [
+"com.tcl.android.webview",
+"TCL 内置网页组件，停用后部分应用的网页打不开",
+"TCL 内置网页组件，停用后部分应用的网页打不开"
+],
+"com.tcl.appreciate.art": [
+"艺生活",
+"预装内容 App",
+""
+],
+"com.tcl.audioplayer": [
+"音乐播放器",
+"预装播放器",
+""
+],
+"com.tcl.bi": [
+"数据统计",
+"埋点统计",
+""
+],
+"com.tcl.bootadservice": [
+"TCL/雷鸟 开机广告服务",
+"开机时推送广告、开机自启，停用不影响系统功能",
+""
+],
+"com.tcl.browser": [
+"TCL 浏览器",
+"内置浏览器",
+""
+],
+"com.tcl.dashboard": [
+"仪表盘",
+"预装工具页",
+""
+],
+"com.tcl.esticker": [
+"贴纸功能",
+"预装小功能",
+""
+],
+"com.tcl.exhibit": [
+"展台模式",
+"商场演示",
+""
+],
+"com.tcl.factory.view": [
+"工厂菜单",
+"售后菜单，别动",
+""
+],
+"com.tcl.ffkaraoke": [
+"全民 K 歌（TCL 版）",
+"预装 K 歌",
+""
+],
+"com.tcl.gallery": [
+"相册",
+"预装相册",
+""
+],
+"com.tcl.gamecenter": [
+"T2 游戏中心",
+"预装游戏",
+""
+],
+"com.tcl.guard": [
+"电视卫士",
+"所谓杀毒",
+""
+],
+"com.tcl.hearaid": [
+"com.tcl.hearaid",
+"TCL 听力测试与音量自适应，停用后声音可能变小",
+"TCL 听力测试与音量自适应，停用后声音可能变小"
+],
+"com.tcl.initsetup": [
+"开机引导",
+"首次开机设置，装完就不用了",
+"首次开机引导，停了可能卡在开机画面"
+],
+"com.tcl.magiconnectfree": [
+"多屏互联",
+"手机互联",
+""
+],
+"com.tcl.micmanager": [
+"遥控器麦克风管理",
+"语音遥控的麦克风开关",
+""
+],
+"com.tcl.miracast": [
+"Miracast 投屏",
+"安卓投屏",
+""
+],
+"com.tcl.notereminder": [
+"记事提醒",
+"预装小工具",
+""
+],
+"com.tcl.ocean.instructions": [
+"电子说明书",
+"说明书 App",
+""
+],
+"com.tcl.partnercustomizer": [
+"运营商定制",
+"合作方定制入口",
+""
+],
+"com.tcl.smartalexa": [
+"Alexa 集成",
+"海外版语音助手",
+""
+],
+"com.tcl.t_solo": [
+"预装内容应用",
+"海外预装",
+""
+],
+"com.tcl.tclmusic": [
+"QQ 音乐（TCL 版）",
+"预装音乐",
+""
+],
+"com.tcl.tliveplay": [
+"轮播频道",
+"预装轮播",
+""
+],
+"com.tcl.tshop": [
+"T 惠购",
+"购物商城",
+""
+],
+"com.tcl.tvweishi": [
+"电视卫士服务",
+"所谓杀毒后台",
+""
+],
+"com.tcl.ui_mediaCenter": [
+"U 盘文件管理",
+"读 U 盘用",
+""
+],
+"com.tcl.usercenter": [
+"用户中心",
+"账号/会员入口",
+""
+],
+"com.tcl.versionUpdateApp": [
+"系统版本更新",
+"固件更新",
+""
+],
+"com.tcl.videoplayer": [
+"视频播放器",
+"预装播放器",
+""
+],
+"com.tcl.vod": [
+"TCL 影视",
+"预装影视入口",
+""
+],
+"com.tcl.waterfall.overseas": [
+"瀑布流推荐",
+"首页推荐流",
+""
+],
+"com.tcl.wholenetsearch": [
+"全局搜索",
+"预装搜索",
+""
+],
+"com.teamsmart.videomanager.tv": [
+"SmartTube",
+"",
+""
+],
+"com.tianci.ad": [
+"酷开开机广告",
+"开机广告",
+""
+],
+"com.tianci.appstore": [
+"酷开应用商店",
+"装软件用",
+""
+],
+"com.tianci.autoinstaller": [
+"自动安装服务",
+"电视自己装应用用",
+""
+],
+"com.tianci.localmedia": [
+"U 盘播放",
+"读 U 盘视频",
+""
+],
+"com.tianci.push": [
+"酷开推送",
+"营销消息推送",
+""
+],
+"com.tianci.user": [
+"用户中心",
+"账号/会员入口",
+""
+],
+"com.ts.launcher": [
+"主页替身",
+"Home 键替身，把 Home 键直接交回橙龙桌面",
+"我们自己的应用"
+],
+"com.vision.aibook": [
+"AI 绘本",
+"儿童绘本 App",
+""
+],
+"com.vt.ambiencephoto": [
+"氛围照片屏保",
+"预装屏保",
+""
+],
+"com.xiaomi.account": [
+"小米账号",
+"登录小米账号",
+""
+],
+"com.xiaomi.account.auth": [
+"小米账号授权",
+"跟着小米账号服务走",
+""
+],
+"com.xiaomi.gamecenter.sdk.service.mibox": [
+"游戏服务框架",
+"游戏中心的后台服务",
+""
+],
+"com.xiaomi.mibox.lockscreen": [
+"待机锁屏",
+"待机时推广告海报",
+""
+],
+"com.xiaomi.mimusic2": [
+"小米音乐",
+"自带音乐播放器",
+""
+],
+"com.xiaomi.miplay": [
+"米联投屏",
+"投屏服务",
+""
+],
+"com.xiaomi.mitv.appstore": [
+"小米应用商店",
+"装软件用的",
+""
+],
+"com.xiaomi.mitv.calendar": [
+"日历",
+"看日期，用不到可删",
+""
+],
+"com.xiaomi.mitv.handbook": [
+"玩机手册",
+"说明书电子版",
+""
+],
+"com.xiaomi.mitv.karaoke.service": [
+"K 歌服务",
+"卡拉 OK 后台，不唱可删",
+""
+],
+"com.xiaomi.mitv.mediaexplorer": [
+"媒体浏览器",
+"U 盘/文件浏览，用得上别删",
+""
+],
+"com.xiaomi.mitv.pay": [
+"小米支付服务",
+"同上，支付后台",
+""
+],
+"com.xiaomi.mitv.payment": [
+"小米支付",
+"电视上买东西付款",
+""
+],
+"com.xiaomi.mitv.remotecontroller.service": [
+"遥控服务",
+"手机遥控电视/遥控器配对",
+"系统关键组件，停用会影响电视基础功能"
+],
+"com.xiaomi.mitv.shop": [
+"小米商城",
+"卖东西的",
+""
+],
+"com.xiaomi.mitv.smartshare": [
+"小米快传/投屏",
+"手机投屏到电视的核心，不用可删",
+""
+],
+"com.xiaomi.mitv.tvmanager": [
+"小米电视管家",
+"清理/加速/应用管理，可用本 App 替代；删了还丢应用商店",
+""
+],
+"com.xiaomi.mitv.tvpush.tvpushservice": [
+"电视推送服务",
+"推送通知（多为广告）",
+""
+],
+"com.xiaomi.mitv.upgrade": [
+"系统升级",
+"系统更新",
+""
+],
+"com.xiaomi.screenrecorder": [
+"录屏",
+"电视录屏工具",
+""
+],
+"com.xiaomi.smarthome.tv": [
+"米家",
+"控制智能家居，不用米家可删",
+""
+],
+"com.xiaomi.statistic": [
+"统计服务",
+"数据上报，纯后台",
+""
+],
+"com.xiaomi.tv.gallery": [
+"电视画报",
+"待机壁纸+广告",
+""
+],
+"com.xiaomi.tweather": [
+"天气",
+"桌面天气组件的数据源",
+""
+],
+"com.xiaomi.voicecontrol": [
+"小爱同学",
+"语音助手",
+""
+],
+"com.xm.webcontent": [
+"内容推广服务",
+"网页广告推送，纯后台",
+""
+],
+"fusion.android.tv.demo": [
+"卖场演示",
+"零售展示用",
+""
+],
+"mitv.service": [
+"米家底层服务",
+"系统底层服务，别动",
+"系统关键组件，停用会影响电视基础功能"
+],
+"org.droidtv.eum": [
+"飞利浦信号源与遥控服务",
+"",
+"飞利浦信号源与遥控服务，停用后遥控和信号源可能失灵"
+],
+"org.droidtv.settings": [
+"飞利浦系统设置",
+"",
+"飞利浦系统设置，停用后改不了电视设置"
+],
+"org.jellyfin.androidtv": [
+"Jellyfin",
+"",
+""
+],
+"org.videolan.vlc": [
+"VLC",
+"",
+""
+],
+"org.xbmc.kodi": [
+"Kodi",
+"第三方媒体播放器",
+""
+],
+"tv.twitch.android.app": [
+"Twitch",
+"",
+""
+]
+}
+}
