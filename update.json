@@ -1,20 +1,20 @@
 {
  "schema": 1,
  "packageName": "app.orchard.manager",
- "versionCode": 176,
- "versionName": "1.4.6",
+ "versionCode": 177,
+ "versionName": "1.4.7",
  "minSdk": 21,
- "tag": "manager-v1.4.6",
+ "tag": "manager-v1.4.7",
  "apk": {
-  "name": "orange-manager-1.4.6.apk",
-  "size": 2110906,
-  "sha256": "64d1c540a0e8ee3d3fa51774ac167a1b3c484391944e8ae6ba78c78b366676d7",
+  "name": "orange-manager-1.4.7.apk",
+  "size": 2123194,
+  "sha256": "791030215f4260050e8c013cd5c2c9de7c893e6aa893a75131efacdf42efac9a",
   "urls": [
-   "https://gitee.com/abai569/orchard-manager-updates/releases/download/manager-v1.4.6/orange-manager-1.4.6.apk",
-   "https://gh-proxy.org/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.4.6/orange-manager-1.4.6.apk",
-   "https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.4.6/orange-manager-1.4.6.apk",
-   "https://ghfast.top/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.4.6/orange-manager-1.4.6.apk"
+   "https://gitee.com/abai569/orchard-manager-updates/releases/download/manager-v1.4.7/orange-manager-1.4.7.apk",
+   "https://gh-proxy.org/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.4.7/orange-manager-1.4.7.apk",
+   "https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.4.7/orange-manager-1.4.7.apk",
+   "https://ghfast.top/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.4.7/orange-manager-1.4.7.apk"
   ]
  },
- "notes": "1.4.6\n- 新增应用识别库：清理预装、去广告列表显示中文应用名和用途，可在线更新，拉不到用缓存，再不行用内置 199 条\n- 清理建议补「建议保留」原因，保护名单的停用后果直接写在条目上\n- 机型库扩到 492 台（10,040 → 11,095 条包说明）\n- 安装错误码归并成 14 类，失败提示附带下一步建议\n- 装完桌面自动配置使用记录守护：授权、加电池白名单、拉起并回读状态"
+ "notes": "1.4.7\n- 电视工具新增「私有 DNS 去广告」：AdGuard DoT，先探测再写，解析不通自动还原\n- 「默认桌面修复」加兜底：设置失败先 pm clear-defaults --user 0 清首选表再重试一次\n- 新增远程绑定守护：给桌面授 WRITE_SECURE_SETTINGS，通过 GuardBridge 让它自己绑无障碍，专治设置了却不绑的机器\n- 机型库支持 App 内在线更新（三源、24 小时节流、坏包保留内置 492 台）\n- 桌面页重构：结论卡 + 主按钮 + 更多 + 折叠详情，组件串不再堆在界面上\n- 界面整体调整：卡片圆角/投影/分割线、工具格放大、原厂桌面名可识别（TCL 极光/Google TV/Android TV/小米 PatchWall）\n- 应用识别库：清理预装、去广告列表显示中文应用名和用途，可在线更新，拉不到用缓存，再不行用内置 199 条\n- 清理建议补「建议保留」原因，保护名单的停用后果直接写在条目上\n- 机型库扩到 492 台（10,040 → 11,095 条包说明）\n- 安装错误码归并成 14 类，失败提示附带下一步建议\n- 装完桌面自动配置使用记录守护：授权、加电池白名单、拉起并回读状态"
 }
