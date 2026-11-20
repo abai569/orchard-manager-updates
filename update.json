@@ -1,20 +1,20 @@
 {
  "schema": 1,
  "packageName": "app.orchard.manager",
- "versionCode": 175,
- "versionName": "1.4.5",
+ "versionCode": 176,
+ "versionName": "1.4.6",
  "minSdk": 21,
- "tag": "manager-v1.4.5",
+ "tag": "manager-v1.4.6",
  "apk": {
-  "name": "orange-manager-1.4.5.apk",
-  "size": 2082234,
-  "sha256": "9d462e1534846232624887cbf554fddca0ffb5d2b7cf0a73b26e54ddf8ae421e",
+  "name": "orange-manager-1.4.6.apk",
+  "size": 2110906,
+  "sha256": "64d1c540a0e8ee3d3fa51774ac167a1b3c484391944e8ae6ba78c78b366676d7",
   "urls": [
-   "https://gitee.com/abai569/orchard-manager-updates/releases/download/manager-v1.4.5/orange-manager-1.4.5.apk",
-   "https://gh-proxy.org/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.4.5/orange-manager-1.4.5.apk",
-   "https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.4.5/orange-manager-1.4.5.apk",
-   "https://ghfast.top/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.4.5/orange-manager-1.4.5.apk"
+   "https://gitee.com/abai569/orchard-manager-updates/releases/download/manager-v1.4.6/orange-manager-1.4.6.apk",
+   "https://gh-proxy.org/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.4.6/orange-manager-1.4.6.apk",
+   "https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.4.6/orange-manager-1.4.6.apk",
+   "https://ghfast.top/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.4.6/orange-manager-1.4.6.apk"
   ]
  },
- "notes": "1.4.5\n- 装桌前先清掉电视 Download 里以前推的旧安装包（只删橙龙桌面自己的 apk，不卸载应用、不动别的文件）\n- 旧包名的 Lite 桌面（app.orchard.tv.lite）也能识别、也能在「卸载橙龙桌面」里清掉\n- 新桌面装好、默认桌面切过去之后，自动卸载电视上残留的旧包名桌面，免得并排两个橙龙桌面；守护版没有主页替身、或默认桌面还没切过去时会留着不删，避免开机没桌面"
+ "notes": "1.4.6\n- 新增应用识别库：清理预装、去广告列表显示中文应用名和用途，可在线更新，拉不到用缓存，再不行用内置 199 条\n- 清理建议补「建议保留」原因，保护名单的停用后果直接写在条目上\n- 机型库扩到 492 台（10,040 → 11,095 条包说明）\n- 安装错误码归并成 14 类，失败提示附带下一步建议\n- 装完桌面自动配置使用记录守护：授权、加电池白名单、拉起并回读状态"
 }
