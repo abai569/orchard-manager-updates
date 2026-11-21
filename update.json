@@ -1,20 +1,20 @@
 {
  "schema": 1,
  "packageName": "app.orchard.manager",
- "versionCode": 177,
- "versionName": "1.4.7",
+ "versionCode": 182,
+ "versionName": "1.4.8",
  "minSdk": 21,
- "tag": "manager-v1.4.7",
+ "tag": "manager-v1.4.8",
  "apk": {
-  "name": "orange-manager-1.4.7.apk",
-  "size": 2123194,
-  "sha256": "791030215f4260050e8c013cd5c2c9de7c893e6aa893a75131efacdf42efac9a",
+  "name": "orange-manager-1.4.8.apk",
+  "size": 2010794,
+  "sha256": "fa4ed44032b4fdaebd7a984cbfdc3eef0dfd798007dcc71f3a0311ae642ec9b6",
   "urls": [
-   "https://gitee.com/abai569/orchard-manager-updates/releases/download/manager-v1.4.7/orange-manager-1.4.7.apk",
-   "https://gh-proxy.org/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.4.7/orange-manager-1.4.7.apk",
-   "https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.4.7/orange-manager-1.4.7.apk",
-   "https://ghfast.top/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.4.7/orange-manager-1.4.7.apk"
+   "https://gitee.com/abai569/orchard-manager-updates/releases/download/manager-v1.4.8/orange-manager-1.4.8.apk",
+   "https://gh-proxy.org/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.4.8/orange-manager-1.4.8.apk",
+   "https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.4.8/orange-manager-1.4.8.apk",
+   "https://ghfast.top/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.4.8/orange-manager-1.4.8.apk"
   ]
  },
- "notes": "1.4.7\n- 电视工具新增「私有 DNS 去广告」：AdGuard DoT，先探测再写，解析不通自动还原\n- 「默认桌面修复」加兜底：设置失败先 pm clear-defaults --user 0 清首选表再重试一次\n- 新增远程绑定守护：给桌面授 WRITE_SECURE_SETTINGS，通过 GuardBridge 让它自己绑无障碍，专治设置了却不绑的机器\n- 机型库支持 App 内在线更新（三源、24 小时节流、坏包保留内置 492 台）\n- 桌面页重构：结论卡 + 主按钮 + 更多 + 折叠详情，组件串不再堆在界面上\n- 界面整体调整：卡片圆角/投影/分割线、工具格放大、原厂桌面名可识别（TCL 极光/Google TV/Android TV/小米 PatchWall）\n- 应用识别库：清理预装、去广告列表显示中文应用名和用途，可在线更新，拉不到用缓存，再不行用内置 199 条\n- 清理建议补「建议保留」原因，保护名单的停用后果直接写在条目上\n- 机型库扩到 492 台（10,040 → 11,095 条包说明）\n- 安装错误码归并成 14 类，失败提示附带下一步建议\n- 装完桌面自动配置使用记录守护：授权、加电池白名单、拉起并回读状态"
+ "notes": "1.4.8\n- 二级页日志框统一：置顶（日志框 → 标题 → 连接状态），和首页同一套外观与配色\n- 日志框顶部补齐：抖音号复制、保存、复制、清空、状态点（已连接绿 / 失败红 / 其余橙）\n- 日志行不再显示 ✓ ✗ 符号，时间戳与正文同字号固定一列，折行与正文左对齐，行距收紧\n- 去掉日志弹窗，日志就在当前页看\n- 「怎么在电视上打开 ADB」收进首页功能列表（恢复电视原生系统下面），图标与其它项统一\n- 查 ADB 页重排：品牌/型号搜索 + 品类筛选 + 分步说明 + 排查，不再放日志框和连接条\n- 桌面页小字补上「诊断日志」入口说明"
 }
