@@ -1,20 +1,20 @@
 {
  "schema": 1,
  "packageName": "app.orchard.manager",
- "versionCode": 182,
- "versionName": "1.4.8",
+ "versionCode": 185,
+ "versionName": "1.4.9",
  "minSdk": 21,
- "tag": "manager-v1.4.8",
+ "tag": "manager-v1.4.9",
  "apk": {
-  "name": "orange-manager-1.4.8.apk",
-  "size": 2010794,
-  "sha256": "fa4ed44032b4fdaebd7a984cbfdc3eef0dfd798007dcc71f3a0311ae642ec9b6",
+  "name": "orange-manager-1.4.9.apk",
+  "size": 2018986,
+  "sha256": "92a86463713868b9baed4902eb6057a1d033ff029f49ba5c1b248aa29379d7c3",
   "urls": [
-   "https://gitee.com/abai569/orchard-manager-updates/releases/download/manager-v1.4.8/orange-manager-1.4.8.apk",
-   "https://gh-proxy.org/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.4.8/orange-manager-1.4.8.apk",
-   "https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.4.8/orange-manager-1.4.8.apk",
-   "https://ghfast.top/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.4.8/orange-manager-1.4.8.apk"
+   "https://gitee.com/abai569/orchard-manager-updates/releases/download/manager-v1.4.9/orange-manager-1.4.9.apk",
+   "https://gh-proxy.org/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.4.9/orange-manager-1.4.9.apk",
+   "https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.4.9/orange-manager-1.4.9.apk",
+   "https://ghfast.top/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.4.9/orange-manager-1.4.9.apk"
   ]
  },
- "notes": "1.4.8\n- 二级页日志框统一：置顶（日志框 → 标题 → 连接状态），和首页同一套外观与配色\n- 日志框顶部补齐：抖音号复制、保存、复制、清空、状态点（已连接绿 / 失败红 / 其余橙）\n- 日志行不再显示 ✓ ✗ 符号，时间戳与正文同字号固定一列，折行与正文左对齐，行距收紧\n- 去掉日志弹窗，日志就在当前页看\n- 「怎么在电视上打开 ADB」收进首页功能列表（恢复电视原生系统下面），图标与其它项统一\n- 查 ADB 页重排：品牌/型号搜索 + 品类筛选 + 分步说明 + 排查，不再放日志框和连接条\n- 桌面页小字补上「诊断日志」入口说明"
+ "notes": "1.4.9 / 185\n- 打开工厂模式移到电视工具卡片最后一项，移除高级工具重复入口。\n- 启动前关闭旧工厂菜单，重新打开首页并核验页面。\n- 区分未连接、未适配、系统限制、连接中断及超时，详细原因保留在日志。\n- TCL 自启动权限设置后回读并检查守护实际绑定，保留其它无障碍服务。\n- 正式签名与1.4.8及测试版一致，可覆盖安装。"
 }
