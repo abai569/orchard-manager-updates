@@ -1,20 +1,20 @@
 {
  "schema": 1,
  "packageName": "app.orchard.manager",
- "versionCode": 185,
- "versionName": "1.4.9",
+ "versionCode": 186,
+ "versionName": "1.5.0",
  "minSdk": 21,
- "tag": "manager-v1.4.9",
+ "tag": "manager-v1.5.0",
  "apk": {
-  "name": "orange-manager-1.4.9.apk",
-  "size": 2018986,
-  "sha256": "92a86463713868b9baed4902eb6057a1d033ff029f49ba5c1b248aa29379d7c3",
+  "name": "orange-manager-1.5.0.apk",
+  "size": 2023082,
+  "sha256": "ced04e307445b858054f89a045a6c134760ee57b64c1cde91f2f4a029b88c7f1",
   "urls": [
-   "https://gitee.com/abai569/orchard-manager-updates/releases/download/manager-v1.4.9/orange-manager-1.4.9.apk",
-   "https://gh-proxy.org/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.4.9/orange-manager-1.4.9.apk",
-   "https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.4.9/orange-manager-1.4.9.apk",
-   "https://ghfast.top/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.4.9/orange-manager-1.4.9.apk"
+   "https://gitee.com/abai569/orchard-manager-updates/releases/download/manager-v1.5.0/orange-manager-1.5.0.apk",
+   "https://gh-proxy.org/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.5.0/orange-manager-1.5.0.apk",
+   "https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.5.0/orange-manager-1.5.0.apk",
+   "https://ghfast.top/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.5.0/orange-manager-1.5.0.apk"
   ]
  },
- "notes": "1.4.9 / 185\n- 打开工厂模式移到电视工具卡片最后一项，移除高级工具重复入口。\n- 启动前关闭旧工厂菜单，重新打开首页并核验页面。\n- 区分未连接、未适配、系统限制、连接中断及超时，详细原因保留在日志。\n- TCL 自启动权限设置后回读并检查守护实际绑定，保留其它无障碍服务。\n- 正式签名与1.4.8及测试版一致，可覆盖安装。"
+ "notes": "- 安卓 14 适配：安装桌面时放行 `ACCESS_RESTRICTED_SETTINGS`，并回读确认；被系统拦住时日志直接指向「设置 → 应用 → 允许受限设置」，不再让你对着开不起来的守护干等。\n- 自启动权限兼容新固件：按 `APP_AUTO_START` → `AUTO_START` → `ASSOC_START` 顺序识别，TCL 安卓 14 上的自启动设置不再静默失败。\n- 配对码链路说清楚了：Android 14 电视（TCL MT9655、小米 MFTR0/MFFU0、极米 RS20）配对常见 `protocol fault`，排查清单、连接诊断、配对弹窗和失败日志都写明改用双公头 USB 线授权后 `adb tcpip 5555`。\n- 桌面 G 版安装包带上 dex metadata（`.dm` + `manifest.json`），装完由系统直接按 Baseline Profile 预编译，不再等一次永远不会来的空闲编译。\n- 正式签名与 1.4.9 及测试版一致，可覆盖安装。"
 }
