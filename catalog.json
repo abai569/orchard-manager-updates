@@ -63,10 +63,10 @@
     },
     {
       "key": "ime",
-      "name": "orange-ime-2.8.1.apk",
+      "name": "orange-ime-2.8.2.apk",
       "packageName": "com.android.tvremoteime",
-      "versionName": "2.8.1",
-      "versionCode": 20810,
+      "versionName": "2.8.2",
+      "versionCode": 20811,
       "minSdk": 21,
       "action": "ENABLE_IME",
       "abi": [
@@ -75,13 +75,13 @@
         "x86",
         "x86_64"
       ],
-      "size": 7932341,
-      "sha256": "2b91c15609ba49779ded064fa1a8927f8a09892280379a4bd83d75b9e7165f62",
+      "size": 7932541,
+      "sha256": "eb04fade77a862caed20472206ca9d61cbeded1012cc59fee37347187c323b7c",
       "urls": [
-        "https://gitee.com/abai569/orchard-manager-updates/releases/download/ime-2.8.1/orange-ime-2.8.1.apk",
-        "https://gh-proxy.org/https://github.com/abai569/orchard-manager-updates/releases/download/ime-2.8.1/orange-ime-2.8.1.apk",
-        "https://github.com/abai569/orchard-manager-updates/releases/download/ime-2.8.1/orange-ime-2.8.1.apk",
-        "https://ghfast.top/https://github.com/abai569/orchard-manager-updates/releases/download/ime-2.8.1/orange-ime-2.8.1.apk"
+        "https://gitee.com/abai569/orchard-manager-updates/releases/download/ime-2.8.2/orange-ime-2.8.2.apk",
+        "https://gh-proxy.org/https://github.com/abai569/orchard-manager-updates/releases/download/ime-2.8.2/orange-ime-2.8.2.apk",
+        "https://github.com/abai569/orchard-manager-updates/releases/download/ime-2.8.2/orange-ime-2.8.2.apk",
+        "https://ghfast.top/https://github.com/abai569/orchard-manager-updates/releases/download/ime-2.8.2/orange-ime-2.8.2.apk"
       ]
     },
     {
