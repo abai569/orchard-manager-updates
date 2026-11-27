@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-26",
+  "updated": "2026-11-27",
   "apps": [
     {
       "key": "desktop",
@@ -87,18 +87,18 @@
     },
     {
       "key": "juguo",
-      "name": "orange-juguo-3.2.8.apk",
+      "name": "juguo-tv-3.3.3.apk",
       "packageName": "com.juguo.tv",
-      "versionName": "3.2.8",
-      "versionCode": 348,
+      "versionName": "3.3.3",
+      "versionCode": 388,
       "minSdk": 19,
-      "size": 3564123,
-      "sha256": "f2cd2b4fb855c84e0dc19297321851fcd1a56c8b8301cb298e56fb1ef36af0bc",
+      "size": 3592909,
+      "sha256": "4c432a9083a9e8e395b64dbd8a00acfeaca087b5390f2a7ac1b6dc8573275ad7",
       "urls": [
-        "https://gitee.com/abai569/orchard-manager-updates/releases/download/juguo-3.2.8/orange-juguo-3.2.8.apk",
-        "https://gh-proxy.org/https://github.com/abai569/orchard-manager-updates/releases/download/juguo-3.2.8/orange-juguo-3.2.8.apk",
-        "https://github.com/abai569/orchard-manager-updates/releases/download/juguo-3.2.8/orange-juguo-3.2.8.apk",
-        "https://ghfast.top/https://github.com/abai569/orchard-manager-updates/releases/download/juguo-3.2.8/orange-juguo-3.2.8.apk"
+        "https://gitee.com/abai569/hongguotv-updates/releases/download/kotlin-v3.3.3/%E6%A9%98%E6%9E%9Ctv-3.3.3.apk",
+        "https://gh-proxy.org/https://github.com/abai569/hongguotv-updates/releases/download/kotlin-v3.3.3/juguo-tv-3.3.3.apk",
+        "https://github.com/abai569/hongguotv-updates/releases/download/kotlin-v3.3.3/juguo-tv-3.3.3.apk",
+        "https://ghfast.top/https://github.com/abai569/hongguotv-updates/releases/download/kotlin-v3.3.3/juguo-tv-3.3.3.apk"
       ]
     },
     {
