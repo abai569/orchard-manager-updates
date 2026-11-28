@@ -31,17 +31,17 @@
           "packageName": "app.chenglong.tv"
         },
         "guard": {
-          "name": "orange-desktop-1.5.6-g.apk",
-          "size": 6942307,
-          "sha256": "d11e8c064ac6197464a53cc37c60f74d95f0f563e9f154c3fd9d88dded31612e",
+          "name": "orange-desktop-1.5.7-g.apk",
+          "size": 7205759,
+          "sha256": "8fce923f93a82ab5a4a0991e37aa938752208667c5bab3fd113404e1e0c6fc40",
           "urls": [
-            "https://gitee.com/abai569/orchard-manager-updates/releases/download/1.5.6/240/orange-desktop-1.5.6-g.apk",
-            "https://gh-proxy.org/https://github.com/abai569/orchard-manager-updates/releases/download/1.5.6/240/orange-desktop-1.5.6-g.apk",
-            "https://github.com/abai569/orchard-manager-updates/releases/download/1.5.6/240/orange-desktop-1.5.6-g.apk",
-            "https://ghfast.top/https://github.com/abai569/orchard-manager-updates/releases/download/1.5.6/240/orange-desktop-1.5.6-g.apk"
+            "https://gitee.com/abai569/orchard-manager-updates/releases/download/1.5.7/252/orange-desktop-1.5.7-g.apk",
+            "https://gh-proxy.org/https://github.com/abai569/orchard-manager-updates/releases/download/1.5.7/252/orange-desktop-1.5.7-g.apk",
+            "https://github.com/abai569/orchard-manager-updates/releases/download/1.5.7/252/orange-desktop-1.5.7-g.apk",
+            "https://ghfast.top/https://github.com/abai569/orchard-manager-updates/releases/download/1.5.7/252/orange-desktop-1.5.7-g.apk"
           ],
-          "versionName": "1.5.6-guard",
-          "versionCode": 240,
+          "versionName": "1.5.7-guard",
+          "versionCode": 252,
           "packageName": "app.chenglong.tv"
         },
         "lite": {
