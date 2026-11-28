@@ -90,10 +90,10 @@
       "name": "juguo-tv-3.3.4.apk",
       "packageName": "com.juguo.tv",
       "versionName": "3.3.4",
-      "versionCode": 392,
+      "versionCode": 393,
       "minSdk": 19,
-      "size": 3607923,
-      "sha256": "dbf68a76ac5ccdb9e15b102d8ac93743927da08d2ba321106eb15f5ac36a363",
+      "size": 3609620,
+      "sha256": "aaa774bc986b5b5c3131369823167b4a286c987764314354d8fec7f6b809019c",
       "urls": [
         "https://gitee.com/abai569/hongguotv-updates/releases/download/kotlin-v3.3.4/%E6%A9%98%E6%9E%9Ctv-3.3.4.apk",
         "https://gh-proxy.org/https://github.com/abai569/hongguotv-updates/releases/download/kotlin-v3.3.4/juguo-tv-3.3.4.apk",
