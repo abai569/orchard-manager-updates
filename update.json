@@ -1,20 +1,20 @@
 {
- "schema": 1,
- "packageName": "app.orchard.manager",
- "versionCode": 186,
- "versionName": "1.5.0",
- "minSdk": 21,
- "tag": "manager-v1.5.0",
- "apk": {
-  "name": "orange-manager-1.5.0.apk",
-  "size": 2023082,
-  "sha256": "ced04e307445b858054f89a045a6c134760ee57b64c1cde91f2f4a029b88c7f1",
-  "urls": [
-   "https://gitee.com/abai569/orchard-manager-updates/releases/download/manager-v1.5.0/orange-manager-1.5.0.apk",
-   "https://gh-proxy.org/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.5.0/orange-manager-1.5.0.apk",
-   "https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.5.0/orange-manager-1.5.0.apk",
-   "https://ghfast.top/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.5.0/orange-manager-1.5.0.apk"
-  ]
- },
- "notes": "- 安卓 14 适配：安装桌面时放行 `ACCESS_RESTRICTED_SETTINGS`，并回读确认；被系统拦住时日志直接指向「设置 → 应用 → 允许受限设置」，不再让你对着开不起来的守护干等。\n- 自启动权限兼容新固件：按 `APP_AUTO_START` → `AUTO_START` → `ASSOC_START` 顺序识别，TCL 安卓 14 上的自启动设置不再静默失败。\n- 配对码链路说清楚了：Android 14 电视（TCL MT9655、小米 MFTR0/MFFU0、极米 RS20）配对常见 `protocol fault`，排查清单、连接诊断、配对弹窗和失败日志都写明改用双公头 USB 线授权后 `adb tcpip 5555`。\n- 桌面 G 版安装包带上 dex metadata（`.dm` + `manifest.json`），装完由系统直接按 Baseline Profile 预编译，不再等一次永远不会来的空闲编译。\n- 正式签名与 1.4.9 及测试版一致，可覆盖安装。"
+  "schema": 1,
+  "packageName": "app.orchard.manager",
+  "versionCode": 187,
+  "versionName": "1.5.1",
+  "minSdk": 21,
+  "tag": "manager-v1.5.1",
+  "apk": {
+    "name": "orange-manager-1.5.1.apk",
+    "size": 2023082,
+    "sha256": "180c479a30c9e81ea5546f53b3d313a120eb168fbab82054dde045cfc7ec686d",
+    "urls": [
+      "https://gitee.com/abai569/orchard-manager-updates/releases/download/manager-v1.5.1/orange-manager-1.5.1.apk",
+      "https://gh-proxy.org/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.5.1/orange-manager-1.5.1.apk",
+      "https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.5.1/orange-manager-1.5.1.apk",
+      "https://ghfast.top/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.5.1/orange-manager-1.5.1.apk"
+    ]
+  },
+  "notes": "橙龙桌面工具 1.5.1（187）\n\n- 启动检查发现新版本主动弹出升级提醒，同一会话同一版本不重复弹出。\n- 连接电视后的更新检查接入真实弹窗，日志与实际显示一致。\n- 去掉“看完了，下载”再点“下载”的重复确认，点击“下载更新”直接下载。\n- 下载完成后点击“安装更新”直接拉起系统安装器，取消多余确认。\n- 原正式签名，可覆盖 1.5.0 保留数据。\n\nRelease / R8 / lint 通过；源码提交 06bed93；tag manager-1.5.1/187。\n"
 }
