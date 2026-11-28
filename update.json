@@ -1,20 +1,20 @@
 {
   "schema": 1,
   "packageName": "app.orchard.manager",
-  "versionCode": 187,
-  "versionName": "1.5.1",
+  "versionCode": 188,
+  "versionName": "1.5.2",
   "minSdk": 21,
-  "tag": "manager-v1.5.1",
+  "tag": "manager-v1.5.2",
   "apk": {
-    "name": "orange-manager-1.5.1.apk",
+    "name": "orange-manager-1.5.2.apk",
     "size": 2023082,
-    "sha256": "180c479a30c9e81ea5546f53b3d313a120eb168fbab82054dde045cfc7ec686d",
+    "sha256": "b8fcdd10f3215d4d8e8f14d7ef12b586a1db5b263bbf8434d384257d379d8683",
     "urls": [
-      "https://gitee.com/abai569/orchard-manager-updates/releases/download/manager-v1.5.1/orange-manager-1.5.1.apk",
-      "https://gh-proxy.org/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.5.1/orange-manager-1.5.1.apk",
-      "https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.5.1/orange-manager-1.5.1.apk",
-      "https://ghfast.top/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.5.1/orange-manager-1.5.1.apk"
+      "https://gitee.com/abai569/orchard-manager-updates/releases/download/manager-v1.5.2/orange-manager-1.5.2.apk",
+      "https://gh-proxy.org/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.5.2/orange-manager-1.5.2.apk",
+      "https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.5.2/orange-manager-1.5.2.apk",
+      "https://ghfast.top/https://github.com/abai569/orchard-manager-updates/releases/download/manager-v1.5.2/orange-manager-1.5.2.apk"
     ]
   },
-  "notes": "橙龙桌面工具 1.5.1（187）\n\n- 启动检查发现新版本主动弹出升级提醒，同一会话同一版本不重复弹出。\n- 连接电视后的更新检查接入真实弹窗，日志与实际显示一致。\n- 去掉“看完了，下载”再点“下载”的重复确认，点击“下载更新”直接下载。\n- 下载完成后点击“安装更新”直接拉起系统安装器，取消多余确认。\n- 原正式签名，可覆盖 1.5.0 保留数据。\n\nRelease / R8 / lint 通过；源码提交 06bed93；tag manager-1.5.1/187。\n"
+  "notes": "橙龙桌面工具 1.5.2（188）\n\n- 安装中途断线不再盲目重放命令：`pm install`、`install-create/write/commit` 这类装包命令断了就先核对电视上的安装结果，避免重复安装、或把同一份包再写进会话。\n- 装完的版本核验更严：versionCode 重读三次，仍读不到时提示「安装结果待确认」，不再因为读空就当成核对通过。\n- 关闭安装校验器的分支补上收尾还原，安装中途异常（断线、超时）也会把 verifier 开关恢复成原值。\n- TCL 机型不再无脑把系统安装器恢复成启用：进入时记录原始状态，本来就被停用的保持停用。\n- 软件列表移除内置的「答题解锁」条目（在线清单里已同步删除）。\n\nRelease / R8 / lint 通过；源码提交 75950a9；tag manager-1.5.2/188。\n"
 }
