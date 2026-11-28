@@ -102,23 +102,6 @@
       ]
     },
     {
-      "key": "datitv",
-      "name": "orange-datitv-1.0.2.apk",
-      "packageName": "com.datitv.app",
-      "versionName": "1.0.2",
-      "versionCode": 177,
-      "minSdk": 14,
-      "action": "GRANT_ALL",
-      "size": 4644306,
-      "sha256": "539b619cc1adbc2b54c8fb9642867675dc52ab3b16c4dfeda9f20885faf6e745",
-      "urls": [
-        "https://gitee.com/abai569/orchard-manager-updates/releases/download/datitv-1.0.2/orange-datitv-1.0.2.apk",
-        "https://gh-proxy.org/https://github.com/abai569/orchard-manager-updates/releases/download/datitv-1.0.2/orange-datitv-1.0.2.apk",
-        "https://github.com/abai569/orchard-manager-updates/releases/download/datitv-1.0.2/orange-datitv-1.0.2.apk",
-        "https://ghfast.top/https://github.com/abai569/orchard-manager-updates/releases/download/datitv-1.0.2/orange-datitv-1.0.2.apk"
-      ]
-    },
-    {
       "key": "file",
       "name": "小白文件管理器",
       "packageName": "com.xiaobaifile.tv",
